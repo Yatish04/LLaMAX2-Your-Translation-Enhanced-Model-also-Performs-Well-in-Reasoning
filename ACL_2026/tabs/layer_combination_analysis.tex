@@ -1,0 +1,27 @@
+\begin{table}[!t]
+\centering
+\small
+% \resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}c|c|cc@{}}
+\toprule
+\textbf{Setting} & \textbf{Layer} & \textbf{en$\rightarrow$x} & \textbf{x$\rightarrow$en} \\
+\midrule
+\multicolumn{2}{c|}{Qwen3-8B} & 28.91 & 35.26 \\
+\midrule
+\multirow{3}{*}{Bottom} & 4 & 36.53 & 29.64 \\
+ & 8 & 33.55 & 22.00 \\
+ & 15 & 27.93 & 17.79 \\
+ \midrule
+\multirow{3}{*}{Top} & 4 & 25.98 & 33.79 \\
+ & 8 & 27.89 & 35.25 \\
+ & 15 & 28.92 & 36.39 \\
+ \midrule
+\multirow{3}{*}{Bottom 4 + Top} & 4 & 32.28 & 36.40 \\
+ & 8 & 33.12 & 36.59 \\
+ & 15 & 32.82 & 38.02 \\
+ \bottomrule
+\end{tabular}%
+% }
+\caption{Ablation study on layer selection.}
+\label{tab:layer_ablation}
+\end{table}

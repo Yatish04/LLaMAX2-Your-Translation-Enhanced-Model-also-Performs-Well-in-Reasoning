@@ -1,0 +1,82 @@
+\begingroup
+\renewcommand{\arraystretch}{1} % Default value: 1
+\begin{table*}[!t]
+\centering
+\footnotesize
+\resizebox{\linewidth}{!}{
+% \begin{tabular}{l|rc|rc|rc|rc|rc|rc|rc}
+\begin{tabular}{l|rr|rr|rr|rr|rr|rr|rr}
+
+\toprule
+% \rowcolor{gray!10} 
+& \multicolumn{2}{c|}{\textbf{x $\rightarrow$ en}} & \multicolumn{2}{c|}{\textbf{x $\rightarrow$ sw}} & \multicolumn{2}{c|}{\textbf{x $\rightarrow$ th}} & \multicolumn{2}{c|}{\textbf{x $\rightarrow$ bn}} & \multicolumn{2}{c|}{\textbf{x$\rightarrow$ zh}} & \multicolumn{2}{c|}{\textbf{x $\rightarrow$ ar}} & \multicolumn{2}{c}{\textbf{x $\rightarrow$ ko}} \\
+% \rowcolor{gray!10}  
+& \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} \\
+
+\midrule
+
+
+Qwen3-8B & 35.24 & 89.89 & 3.49 & 12.52 & \textbf{29.85} & \textbf{75.47} & 14.14 & 59.91 & 26.88 & 81.65 & 21.73 & 75.18 & 16.20 & 76.48 \\
+% \rowcolor{pink!50}  
+Qwen3-8B-FFT & 9.73 & 34.21 & 2.19 & 20.31 & 2.36 & 22.56 & 5.02 & 24.63 & 9.10 & 32.25 & 8.16 & 37.12 & 2.19 & 21.57 \\
+% \rowcolor{pink!50}  
+Qwen3-8B-LoRA & 35.63 & 84.64 & 1.99 & 17.66 & 22.39 & 67.04 & 10.62 & 47.49 & 22.89 & 75.64 & 15.04 & 66.77 & 11.82 & 68.17 \\
+% \rowcolor{pink!50} 
+\modelsmall & \textbf{38.02} & \textbf{91.35} & \textbf{18.60} & \textbf{50.99} & 27.84 & 73.17 & \textbf{19.39} & \textbf{70.67} & \textbf{26.95} & \textbf{82.15} & \textbf{24.00} & \textbf{77.50} & \textbf{18.08} & \textbf{80.54} \\
+
+\midrule
+% \rowcolor{pink!50}  
+
+
+Qwen3-14B & 36.92 & 91.98 & 5.87 & 15.33 & \textbf{32.40} & 80.12 & 17.50 & 68.09 & 28.71 & 83.95 & 24.01 & 79.75 & 18.77 & 82.19 \\
+% \rowcolor{pink!50}  
+Qwen3-14B-FFT & \textbf{40.37} & 90.99 & 13.04 & 53.69 & 19.34 & 63.68 & 17.13 & 67.70 & 24.98 & 77.93 & 21.37 & 73.84 & 14.76 & 74.66 \\
+% \rowcolor{pink!50}  
+Qwen3-14B-LoRA & 37.19 & 86.57 & 6.13 & 18.90 & 26.10 & 67.32 & 16.12 & 60.78 & 24.40 & 75.81 & 20.88 & 69.40 & 17.08 & 77.12 \\ 
+% \rowcolor{pink!50} 
+\modellarge & 39.01 & \textbf{92.86} & \textbf{20.02} & \textbf{57.66} & 32.03 & \textbf{80.47} & \textbf{21.63} & \textbf{77.43} & \textbf{28.96} & \textbf{84.90} & \textbf{26.31} & \textbf{82.19} & \textbf{20.31} & \textbf{84.68} \\
+
+
+\bottomrule
+
+\toprule
+% \rowcolor{gray!10} 
+& \multicolumn{2}{c|}{\textbf{en $\rightarrow$ x}} & \multicolumn{2}{c|}{\textbf{sw $\rightarrow$ x}} & \multicolumn{2}{c|}{\textbf{th $\rightarrow$ x}} & \multicolumn{2}{c|}{\textbf{bn $\rightarrow$ x}} & \multicolumn{2}{c|}{\textbf{zh $\rightarrow$ x}} & \multicolumn{2}{c|}{\textbf{ar $\rightarrow$ x}} & \multicolumn{2}{c}{\textbf{ko $\rightarrow$ x}} \\
+% \rowcolor{gray!10} 
+& \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} \\
+
+\midrule
+% % \rowcolor{pink!50} 
+% \multicolumn{15}{c}{\modelseries} \\
+% \midrule
+
+% \rowcolor{pink!50} 
+
+Qwen3-8B & 28.86 & 80.27 & 13.61 & 32.32 & 19.68 & 72.64 & 19.38 & 66.51 & 20.82 & 78.90 & 22.85 & 72.27 & 20.23 & 71.79 \\
+% \rowcolor{pink!50} 
+Qwen3-8B-FFT & 10.73 & 35.25 & 6.81 & 24.55 & 4.34 & 23.75 & 5.88 & 25.34 & 6.25 & 30.00 & 7.13 & 28.00 & 5.69 & 25.41 \\
+% \rowcolor{pink!50} 
+Qwen3-8B-LoRA & 26.57 & 73.86 & 10.4 & 29.33 & 17.27 & 65.55 & 16.78 & 58.28 & 17.93 & 71.24 & 19.77 & 64.89 & 17.37 & 63.33 \\
+% \rowcolor{pink!50} 
+\modelsmall & \textbf{32.82} & \textbf{85.52} & \textbf{21.41} & \textbf{55.06} & \textbf{22.68} & \textbf{77.36} & \textbf{22.47} & \textbf{71.75} & \textbf{23.31} & \textbf{83.13} & \textbf{25.46} & \textbf{75.63} & \textbf{22.73} & \textbf{75.77} \\
+
+\midrule
+
+% \rowcolor{pink!50} 
+Qwen3-14B & 31.78 & 84.54 & 18.40 & 43.75 & 22.35 & 78.09 & 22.47 & 72.32 & 23.02 & 83.04 & 25.28 & 76.98 & 22.90 & 77.07 \\
+% \rowcolor{pink!50} 
+Qwen3-14B-FFT & 34.35 & 83.58 & 21.26 & \textbf{57.83} & 16.62 & 71.63 & 20.07 & 68.88 & 21.17 & 80.57 & 23.42 & 73.69 & 20.38 & 71.66 \\
+% \rowcolor{pink!50} 
+Qwen3-14B-LoRA & 28.26 & 75.52 & 15.79 & 40.48 & 20.39 & 70.27 & 18.78 & 61.55 & 18.36 & 69.12 & 22.61 & 68.99 & 21.34 & 71.84 \\
+% \rowcolor{pink!50} 
+\modellarge & \textbf{35.97} & \textbf{89.51} & \textbf{23.19} & 57.23 & \textbf{24.91} & \textbf{83.40} & \textbf{24.93} & \textbf{77.15} & \textbf{25.41} & \textbf{87.64} & \textbf{28.18} & \textbf{81.90} & \textbf{25.53} & \textbf{82.16}  \\
+
+\bottomrule
+
+\end{tabular}%
+4}
+
+\caption{Comparison of \modelseries with Qwen3, and between Full Fine-Tuning~(FFT) and LoRA on 17 languages from the FLORES-101 test set. In this table, “x” denotes translation into any of the other 16 languages, excluding the source and target languages in each translation direction.}
+\label{tab:translation_flores_qwen3}
+\end{table*}
+\endgroup

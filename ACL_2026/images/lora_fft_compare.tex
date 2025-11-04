@@ -1,0 +1,20 @@
+\begin{figure*}[h]
+    \centering
+    \begin{subfigure}[b]{0.45\linewidth}
+        % 统一高度，例如 6cm
+        \includegraphics[height=3.5cm]{ACL_2026/images/lora_fft_compare/combine_small.pdf}
+        \caption{\modelsmall}
+    \end{subfigure}
+    \hspace{0.05\linewidth}
+    \begin{subfigure}[b]{0.45\linewidth}
+        \includegraphics[height=3.5cm]{ACL_2026/images/lora_fft_compare/combine_large.pdf}
+        \caption{\modellarge}
+    \end{subfigure}
+
+    \caption{
+        Comparison of xComet scores of \modelseries with Qwen3, and between Full Fine-Tuning~(FFT) and LoRA 
+        on the FLORES-101 test set covering 17 languages, with results for 7 representative languages shown in the figure. 
+        The results demonstrate that Layer-selective Tuning consistently enhances the translation performance of Qwen3 compared with both LoRA and FFT. In this figure, “x” denotes translation into any of the other 16 languages, excluding the source and target languages in each translation direction.
+    }
+    \label{fig:lora_fft_compare}
+\end{figure*}

@@ -1,0 +1,23 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{graphicx}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\centering
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}l|c|cc|cc@{}}
+\toprule
+\multirow{2}{*}{\textbf{Benchmark}} & \multirow{2}{*}{\textbf{Qwen3-8B}} & \multicolumn{2}{c|}{\textbf{OpenThoughts}} & \multicolumn{2}{c}{\textbf{WebSyn}} \\
+& & \textbf{FFT} & \textbf{LT} & \textbf{FFT} & \textbf{LT} \\ 
+\midrule
+HumanEval & 92.68 & 81.71 & 82.93 & 93.29 & \textbf{93.90} \\
+LiveCodeBench-V5 & 55.69 & 23.95 & 25.15 & 53.29 & \textbf{56.89} \\
+LiveCodeBench-V6 & 48.57 & 23.43 & 26.29 & 46.86 & \textbf{50.86} \\
+BigCodeBench-Hard & 25.00 & 18.92 & 20.27 & 22.30 & \textbf{25.68} \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Comparison of Full Fine-Tuning (FFT) and our \method (LT) on Code Generation Tasks. In most cases, FFT leads to performance degradation in instruction models, whereas LT enhances their code generation capability.}
+\label{tab:code_sft}
+\end{table}

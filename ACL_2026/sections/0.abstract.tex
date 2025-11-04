@@ -1,0 +1,12 @@
+\begin{abstract}
+
+% Large Language Models have shown impressive translation abilities in high-resource languages, but their performance often falls short in low-resource languages. To improve multilingual capabilities, existing pipelines typically rely on continual pretraining from a base model using vast datasets, which creates a significant barrier for multilingual enhancement. In this paper, we leverage instruct models with only 0.8 billion parallel data for layer-selective tuning, achieving efficient multilingual enhancement. Extensive experiments reveal that our approach markedly improves multilingual capabilities in both high-resource and low-resource languages. Importantly, the model retains its proficiency in general tasks while also enhancing its performance in multilingual contexts. Our work lays the groundwork for future developments in multilingual models, aiming to create systems that are not only powerful but also accessible to a broader audience.
+
+
+
+
+General Large Language Models (LLMs) excel in reasoning, but those enhanced for translation struggle with reasoning tasks. To address this, we propose a novel translation-enhanced recipe that begins with instruct models and applies layer-selective tuning only on parallel data. Following this pipeline, we introduce the \modelseries models, which demonstrate significant improvements in translation performance across both high- and low-resource languages, achieving 15+ spBLEU and 40+ xComet in low-resource languages, like Swahili. Interestingly, training only with small parallel datasets, \modelseries achieves an average improvement of 1+ points on 7 multilingual tasks while maintaining proficiency comparable to the Qwen3 instruct model in 15 popular reasoning datasets. This work offers a promising approach to multilingual enhancement, significantly reducing complexity and enhancing accessibility for a wider range of languages. The code~\footnote{\url{https://github.com/CONE-MT/LLaMAX2.0}} and model~\footnote{\url{https://huggingface.co/collections/LLaMAX/llamax20-68ad1c154fcf2623b75a068c}} are publicly available.
+
+
+
+\end{abstract}

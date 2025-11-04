@@ -1,0 +1,46 @@
+\section{Analysis}
+
+\subsection{Layer Combination Analysis}
+
+\input{ACL_2026/images/figure_unseen_languages}
+
+Furthermore, Table~\ref{tab:layer_ablation} investigates the impact of different layer selection strategies in \method on model performance. We first evaluate training exclusively on the lower layers and exclusively on the higher layers, and then examine combinations of both.
+
+Training a few of the lower layers already surpasses the baseline, with the bottom four layers achieving the best results. For the higher layers, training the top fifteen achieves the largest improvement, likely because they capture more complex semantic features. Notably, layer 20 (the 16th from the top) negatively impacts performance and is skipped in the current experiments (Figure~\ref{fig:single_lyr_tuning}). 
+
+Finally, when combining lower and higher layers, we observe that training the bottom four together with the top fifteen layers delivers the best translation performance. Consequently, this configuration is adopted in our main experiments.
+
+
+\subsection{Effect of Two-Stage Training}
+
+In \method, the training process is designed in two stages to effectively adapt different layers of the model. To evaluate the necessity of this two-stage design, we compared it with a single-stage approach in Table~\ref{tab:two_vs_one}. 
+The results show that sequentially fine-tuning the lower layers followed by the higher layers provides advantages over training both simultaneously. This improvement is likely due to the smoother adaptation process afforded by the two-stage design.
+Notably, even single-stage training significantly outperforms the start model Qwen3-8B, highlighting the importance of carefully selecting layers for fine-tuning in \method.
+
+\input{ACL_2026/images/llama3.1_next}
+
+\subsection{Generalization to Unseen Languages}
+
+% 
+\modelseries is trained on parallel corpora covering 17 languages. To evaluate its generalization to unseen languages, we test on 12 representative ones (Figure~\ref{fig:unseen_languages}). The results show that \modellarge consistently outperforms Qwen3-8B, demonstrating robust cross-lingual generalization and confirming the method’s effectiveness in extending multilingual ability beyond the training set.
+
+
+\subsection{Adaptability to Different Backbones}
+
+% 
+To verify the generality of \method across different models, we apply it to Llama3.1-8B using the same training setup. As shown in Figure~\ref{fig:llama3.1_next}, \method substantially improves performance across multiple languages, with particularly notable gains on low-resource languages. These results demonstrate the broad applicability and potential of our approach.
+
+
+
+\subsection{Adaptability to Different Tasks}
+
+
+
+In our main experiments, we apply \method on a translation training set.
+To further evaluate its applicability beyond translation, we conduct experiments on code generation tasks and present the results in Table~\ref{tab:code_sft}.
+Specifically, we fine-tune Qwen3-8B on two datasets: (1) python-related samples selected from OpenThoughts~\cite{OpenThoughts}, and (2) web-oriented samples synthesized to construct the WebSyn dataset.
+We then compare the performance of Full Fine-Tuning (FFT) with our proposed \method. 
+
+Experimental results show that \method consistently outperforms FFT on both OpenThoughts and WebSyn. On OpenThoughts, \method achieves 1.22\%--2.86\% higher accuracy, and on WebSyn it yields 0.61\%--4.00\% improvement. Notably, Qwen3-8B fine-tuned with \method gains 0.68\%--2.29\% across four WebSyn evaluation sets, while FFT decreases performance on three. These results indicate that \method remains effective even for code generation tasks.
+
+\input{ACL_2026/tabs/code_pft}

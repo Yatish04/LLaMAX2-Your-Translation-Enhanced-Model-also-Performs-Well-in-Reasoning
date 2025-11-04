@@ -1,0 +1,476 @@
+\begin{thebibliography}{88}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{AIME(2025)}]{ArtProblemSolving}
+AIME. 2025.
+\newblock {{AIME problems and solutions}}.
+\newblock \url{https://artofproblemsolving.com/wiki/index.php/AIME\_Problems\_and\_Solutions}.
+
+\bibitem[{Alexandrov et~al.(2024)Alexandrov, Raychev, M{\"u}ller, Zhang, Vechev, and Toutanova}]{alexandrov-etal-2024-mitigating}
+Anton Alexandrov, Veselin Raychev, Mark~Niklas M{\"u}ller, Ce~Zhang, Martin Vechev, and Kristina Toutanova. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.findings-emnlp.1000} {Mitigating catastrophic forgetting in language transfer via model merging}.
+\newblock In \emph{Findings of the Association for Computational Linguistics: EMNLP 2024}, pages 17167--17186, Miami, Florida, USA. Association for Computational Linguistics.
+
+\bibitem[{Alves et~al.(2024{\natexlab{a}})Alves, Pombal, Guerreiro, Martins, Alves, Farajian, Peters, Rei, Fernandes, Agrawal et~al.}]{alves2024tower}
+Duarte~M Alves, Jos{\'e} Pombal, Nuno~M Guerreiro, Pedro~H Martins, Jo{\~a}o Alves, Amin Farajian, Ben Peters, Ricardo Rei, Patrick Fernandes, Sweta Agrawal, and 1 others. 2024{\natexlab{a}}.
+\newblock Tower: An open multilingual large language model for translation-related tasks.
+\newblock \emph{arXiv preprint arXiv:2402.17733}.
+
+\bibitem[{Alves et~al.(2024{\natexlab{b}})Alves, Pombal, Guerreiro, Martins, Alves, Farajian, Peters, Rei, Fernandes, Agrawal, Colombo, de~Souza, and Martins}]{alvesTowerOpenMultilingual2024a}
+Duarte~Miguel Alves, Jos{\'e} Pombal, Nuno~M. Guerreiro, Pedro~Henrique Martins, Jo{\~a}o Alves, Amin Farajian, Ben Peters, Ricardo Rei, Patrick Fernandes, Sweta Agrawal, Pierre Colombo, Jos{\'e} G.~C. de~Souza, and Andre Martins. 2024{\natexlab{b}}.
+\newblock Tower: {{An Open Multilingual Large Language Model}} for {{Translation-Related Tasks}}.
+\newblock In \emph{First {{Conference}} on {{Language Modeling}}}.
+
+\bibitem[{Alves et~al.(2024{\natexlab{c}})Alves, Pombal, Guerreiro, Martins, Alves, Farajian, Peters, Rei, Fernandes, Agrawal, Colombo, de~Souza, and Martins}]{alvesTowerOpenMultilingual2024}
+Duarte~Miguel Alves, Jos{\'e} Pombal, Nuno~M. Guerreiro, Pedro~Henrique Martins, Jo{\~a}o Alves, Amin Farajian, Ben Peters, Ricardo Rei, Patrick Fernandes, Sweta Agrawal, Pierre Colombo, Jos{\'e} G.~C. de~Souza, and Andre Martins. 2024{\natexlab{c}}.
+\newblock Tower: {{An Open Multilingual Large Language Model}} for {{Translation-Related Tasks}}.
+\newblock In \emph{First {{Conference}} on {{Language Modeling}}}.
+
+\bibitem[{Amini et~al.(2019)Amini, Gabriel, Lin, Koncel-Kedziorski, Choi, and Hajishirzi}]{amini-etal-2019-mathqa}
+Aida Amini, Saadia Gabriel, Shanchuan Lin, Rik Koncel-Kedziorski, Yejin Choi, and Hannaneh Hajishirzi. 2019.
+\newblock \href {https://doi.org/10.18653/v1/N19-1245} {{M}ath{QA}: Towards interpretable math word problem solving with operation-based formalisms}.
+\newblock In \emph{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)}, pages 2357--2367, Minneapolis, Minnesota. Association for Computational Linguistics.
+
+\bibitem[{Anthropic(2025)}]{IntroducingClaude4}
+Anthropic. 2025.
+\newblock Introducing {{Claude}} 4.
+\newblock \url{https://www.anthropic.com/news/claude-4}.
+
+\bibitem[{Austin et~al.(2021)Austin, Odena, Nye, Bosma, Michalewski, Dohan, Jiang, Cai, Terry, Le, and Sutton}]{austinProgramSynthesisLarge2021}
+Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, and Charles Sutton. 2021.
+\newblock \href {https://doi.org/10.48550/arXiv.2108.07732} {Program {{Synthesis}} with {{Large Language Models}}}.
+\newblock \emph{Preprint}, arXiv:2108.07732.
+
+\bibitem[{Bawden and Yvon(2023)}]{bawden-yvon-2023-investigating}
+Rachel Bawden and Fran{\c{c}}ois Yvon. 2023.
+\newblock \href {https://aclanthology.org/2023.eamt-1.16/} {Investigating the translation performance of a large multilingual language model: the case of {BLOOM}}.
+\newblock In \emph{Proceedings of the 24th Annual Conference of the European Association for Machine Translation}, pages 157--170, Tampere, Finland. European Association for Machine Translation.
+
+\bibitem[{ByteDance(2025)}]{ByteDanceSeed}
+ByteDance. 2025.
+\newblock {{ByteDance Seed}}.
+\newblock \url{https://seed.bytedance.com/en/seed1\_6}.
+
+\bibitem[{Cai et~al.(2024)Cai, Cao, Chen, Chen, Chen, Chen, Chen, Chen, Chen, Chu, Dong, Duan, Fan, Fei, Gao, Ge, Gu, Gu, Gui, Guo, Guo, He, Hu, Huang, Jiang, Jiao, Jin, Lei, Li, Li, Li, Li, Li, Li, Liu, Liu, Hong, Liu, Liu, Liu, Lv, Lv, Lv, Ma, Ma, Ma, Ning, Ouyang, Qiu, Qu, Shang, Shao, Song, Song, Sui, Sun, Sun, Tang, Wang, Wang, Wang, Wang, Wang, Wang, Wang, Wei, Weng, Wu, Xiong, Xu, Xu, Yan, Yan, Yang, Ye, Ying, Yu, Yu, Zang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhao, Zhao, Zhao, Zhou, Zhou, Zhuo, Zou, Qiu, Qiao, and Lin}]{caiInternLM2TechnicalReport2024a}
+Zheng Cai, Maosong Cao, Haojiong Chen, Kai Chen, Keyu Chen, Xin Chen, Xun Chen, Zehui Chen, Zhi Chen, Pei Chu, Xiaoyi Dong, Haodong Duan, Qi~Fan, Zhaoye Fei, Yang Gao, Jiaye Ge, Chenya Gu, Yuzhe Gu, Tao Gui, and 81 others. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2403.17297} {{{InternLM2 Technical Report}}}.
+\newblock \emph{Preprint}, arXiv:2403.17297.
+
+\bibitem[{Chen et~al.(2024)Chen, Zhao, Liu, Bai, Lin, Zhou, and Chang}]{chen2024image}
+Liang Chen, Haozhe Zhao, Tianyu Liu, Shuai Bai, Junyang Lin, Chang Zhou, and Baobao Chang. 2024.
+\newblock \href {https://arxiv.org/abs/2403.06764} {An image is worth 1/2 tokens after layer 2: Plug-and-play inference acceleration for large vision-language models}.
+\newblock \emph{Preprint}, arXiv:2403.06764.
+
+\bibitem[{Chen et~al.(2021)Chen, Tworek, Jun, Yuan, Pinto, Kaplan, Edwards, Burda, Joseph, Brockman, Ray, Puri, Krueger, Petrov, Khlaaf, Sastry, Mishkin, Chan, Gray, Ryder, Pavlov, Power, Kaiser, Bavarian, Winter, Tillet, Such, Cummings, Plappert, Chantzis, Barnes, {Herbert-Voss}, Guss, Nichol, Paino, Tezak, Tang, Babuschkin, Balaji, Jain, Saunders, Hesse, Carr, Leike, Achiam, Misra, Morikawa, Radford, Knight, Brundage, Murati, Mayer, Welinder, McGrew, Amodei, McCandlish, Sutskever, and Zaremba}]{chenEvaluatingLargeLanguage2021}
+Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de~Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, and 39 others. 2021.
+\newblock \href {https://doi.org/10.48550/arXiv.2107.03374} {Evaluating {{Large Language Models Trained}} on {{Code}}}.
+\newblock \emph{Preprint}, arXiv:2107.03374.
+
+\bibitem[{Chung et~al.(2024)Chung, Hou, Longpre, Zoph, Tay, Fedus, Li, Wang, Dehghani, Brahma, Webson, Gu, Dai, Suzgun, Chen, Chowdhery, {Castro-Ros}, Pellat, Robinson, Valter, Narang, Mishra, Yu, Zhao, Huang, Dai, Yu, Petrov, Chi, Dean, Devlin, Roberts, Zhou, Le, and Wei}]{chungScalingInstructionFinetunedLanguage2024a}
+Hyung~Won Chung, Le~Hou, Shayne Longpre, Barret Zoph, Yi~Tay, William Fedus, Yunxuan Li, Xuezhi Wang, Mostafa Dehghani, Siddhartha Brahma, Albert Webson, Shixiang~Shane Gu, Zhuyun Dai, Mirac Suzgun, Xinyun Chen, Aakanksha Chowdhery, Alex {Castro-Ros}, Marie Pellat, Kevin Robinson, and 16 others. 2024.
+\newblock Scaling {{Instruction-Finetuned Language Models}}.
+\newblock \emph{Journal of Machine Learning Research}, 25(70):1--53.
+
+\bibitem[{Comanici et~al.(2025)Comanici, Bieber, Schaekermann, Pasupat, Sachdeva, Dhillon, Blistein, Ram, Zhang, Rosen, Marris, Petulla, Gaffney, Aharoni, Lintz, Pais, Jacobsson, Szpektor, Jiang, Haridasan, Omran, Saunshi, Bahri, Mishra, Chu, Boyd, Hekman, Parisi, Zhang, Kawintiranon, {Bedrax-Weiss}, Wang, Xu, Purkiss, Mendlovic, Deutel, Nguyen, Langley, Korn, Rossazza, Ram{\'e}, Waghmare, Miller, Byrd, Sheshan, Bhardwaj, Janus, Rissa, Horgan, Silver, Wahid, Brin, Raimond, Kloboves, Wang, Gundavarapu, Shumailov, Wang, Pajarskas, Heyward, Nikoltchev, Kula, Zhou, Garrett, Kafle, Arik, Goel, Yang, Park, Kojima, Mahmoudieh, Kavukcuoglu, Chen, Fritz, Bulyenov, Roy, Paparas, Shemtov, Chen, Strudel, Reitter, Roy, Vlasov, Ryu, Leichner, Yang, Mariet, Vnukov, Sohn, Stuart, Liang, Chen, Rawlani, Koh, {Co-Reyes}, Lai, Banzal, Vytiniotis, Mei, Cai, Badawi, Fry, Hartman, Zheng, Jia, Keeling, Louis, Chen, Robles, Hung, Zhou, Saxena, Goenka, Ma, Fisher, Taege, Graves, Steiner, Li, Nguyen, Sukthankar, Stanton, Eslami, Shen,
+  Akin, Guseynov, Zhou, Alayrac, Joulin, Farkash, Thapliyal, Roller, Shazeer, Davchev, Koo, {Forbes-Pollard}, Audhkhasi, Farquhar, Gilady, Song, Aslanides, Mendolicchio, Parrish, Blitzer, Gupta, Ju, Yang, Datta, Tacchetti, Mehta, Dibb, Gupta, Piccinini, Hadsell, Rajayogam, Jiang, Griffin, Sundberg, Hayes, Frolov, Xie, Zhang, Dasgupta, Kalra, Shani, Macherey, Huang, MacDermed, Duddu, Zacchello, Yang, Lo, Hui, Kastelic, Gasaway, Tan, Yue, Barrio, Wieting, Yang, Nystrom, Demmessie, Levskaya, Viola, Tekur, Billock, Necula, Joshi, Schaeffer, Lokhande, Sorokin, Shenoy, Chen, Collier, Li, Bos, Wichers, Lee, Pouget, Thangaraj, Axiotis, Crone, Sterneck, Chinaev, Krakovna, Ferludin, Gemp, Winkler, Goldberg, Korotkov, Xiao, Mehrotra, Mariserla, Piratla, Thurk, Pham, Ma, Senges, Kumar, Meyer, Talius, Pierse, Sandhu, Toma, Lin, Nath, Stone, Sadigh, Gupta, Guez, Singh, Thomas, Duerig, Gong, Tanburn, Zhang, Dao, Hammad, Xie, Rijhwani, Murdoch, Kim, Thompson, Cheng, Sohn, Sprechmann, Xu, Tadepalli, Young, Zhang, Srinivasan,
+  Aperghis, Ayyar, Fitoussi, Burnell, Madras, Dusenberry, Xiong, Oguntebi, Albrecht, Bornschein, Mitrovi{\'c}, Dimarco, Shamanna, Shah, Sezener, Upadhyay, Lacey, Schiff, Baur, Ganapathy, Schnider, Wirth, Schenck, Simanovsky, Tan, Fr{\"a}nken, Duan, Mankalale, Dhawan, Sequeira, Wei, Goel, Unlu, Zhu, Sun, Balashankar, Shuster, Umekar, Alnahlawi, van~den Oord, Chen, Zhai, Dai, Lee, Doi, Zilka, Vallu, Shrivastava, Lee, Husain, Zhuang, {Cohen-Addad}, Barber, Atwood, Sadovsky, Wellens, Hand, Rajendran, Turker, Carey, Xu, Soltau, Li, Song, Li, Kemaev, Brown, Burns, Patraucean, Stanczyk, Aravamudhan, Blondel, Noga, Blanco, Song, Isard, Sharma, Hayes, Badawy, Lamp, Laish, Kozlova, Chan, Singla, Sunkara, Upadhyay, Liu, Bai, Wilkiewicz, Zlocha, Liu, Li, Li, Barak, Raboshchuk, Choi, Liu, Jue, Sharma, Marzoca, {Busa-Fekete}, Korsun, Elisseeff, Shen, Carthy, Lamerigts, Hosseini, Lin, Chen, Yang, Chauhan, Omernick, Jia, Zainullina, Hassabis, Vainstein, Amid, Zhou, Votel, V{\'e}rtes, Li, Zhou, Lazaridou, McMahan, Narayanan,
+  Soyer, Basu, Lee, Perozzi, Cao, Berrada, Arya, Chen, Katrina, Xu, Lochbrunner, Hofer, Sharifzadeh, Wu, Goldman, Awasthi, Wang, Wu, Sha, Zhang, Miku{\l}a, Graziano, Mcloughlin, Giannoumis, Namiki, Malik, Radebaugh, Hall, {Leal-Cavazos}, Chen, Sindhwani, Kao, Greene, Griffith, Welty, Montgomery, Yoshino, Yuan, Goodman, Michaely, Lee, Sawhney, Chen, Zheng, Shum, Savinov, Pot, Pak, Zadimoghaddam, Bhatnagar, Lewenberg, Kutzman, Liu, Katzen, Selier, Djolonga, Lepikhin, Xu, Liang, Tan, Schillings, Ersoy, Blois, Bandemer, Singh, Lebedev, Joshi, Brown, Palmer, Pathak, Jalan, Zubach, Lall, Parker, Gunjan, Rogulenko, Sanghai, Leng, Egyed, Li, Ivanova, Andriopoulos, Xie, Rosenfeld, Wright, Sharma, Geng, Wang, Kwei, Pan, Zhang, Wang, Liu, Yeung, Cole, Rosenberg, Yang, Chen, Polovets, Nair, Saxena, Smith, Chang, Mahendru, Grant, Iyer, Cai, McGiffin, Shen, Walton, Girgis, Woodman, Ke, Kwong, Rouillard, Rao, Li, Xu, Prost, Zou, Ji, Magni, Liechty, Calian, Ramachandran, Krivokon, Huang, Chen, Hauth, Ili{\'c}, Xi, Lim, Ion,
+  Moradi, {Toksoz-Exley}, Bullard, Allamanis, Yang, Wang, Hong, Gergely, Li, Mittal, Kovalev, Ungureanu, Labanowski, Wassenberg, Lacasse, Cideron, Devi{\'c}, Marsden, Nguyen, Fink, Zhong, Kiyono, Ivanov, Ma, Bain, Yalasangi, She, Petrushkina, Lunayach, Bromberg, Hodkinson, Meshram, Vlasic, Kyker, Xu, Stanway, Yang, Zhao, Tung, Odoom, Fujii, Gilmer, Kim, Halim, Le, Bohnet, {El-Sayed}, Neyshabur, Reynolds, Reich, Xu, Moreira, Sharma, Liu, Hosseini, Raisinghani, Su, Lao, Formoso, Gelmi, Gueta, Dey, Gribovskaya, {\'C}evid, Mudgal, Bingham, Wang, Kumar, Cullum, Han, Bousmalis, Cedillo, Chu, Magay, Michel, Hlavnova, Calandriello, Ariafar, Yao, Sehwag, Vezer, Lago, Zhu, Rubenstein, Porter, Baddepudi, Riva, Istin, Yeh, Li, Howard, Jha, Chen, de~Liedekerke, Ahmed, Rodriguez, Bhatia, Wang, Elqursh, Klinghoffer, Chen, Kohli, I, Zhang, Nado, Chen, Chen, Zhang, Singh, Hillier, Lebron, Tao, Liu, {Dulac-Arnold}, Zhang, Narayan, Liu, Firat, Bhowmick, Liu, Zhang, Zhang, Rotival, Howard, Sinha, Grushetsky, Beyret,
+  Gopalakrishnan, Zhao, He, Payrits, Nabulsi, Zhang, Chen, Lee, Fallen, Gollapudi, Zhou, Paveti{\'c}, K{\"o}ppe, Huang, Pasumarthi, Fernando, Fischer, {\'C}urko, Gao, Svensson, Stone, Qureshi, Sinha, Kulshreshtha, Matysiak, Mao, Saroufim, Faust, Duan, Fidel, Katircioglu, Kaufman, Shah, Kong, Bapna, Weisz, Dunleavy, Dutta, Liu, Chaabouni, Parada, Wu, Belias, Bissacco, Fort, Xiao, Huot, Knutsen, Blau, Li, Prendki, Love, Chow, Charoenpanit, Shimokawa, Coriou, Gregor, Izo, Akula, Pinto, Hahn, Paulus, Guo, Sharma, Hsieh, Chukwuka, Hashimoto, Rauschmayr, Wu, Angermueller, Wang, Gerlach, Pliskin, Mirylenka, Ma, Baugher, Gale, Bijwadia, Raki{\'c}evi{\'c}, Wood, Park, Chang, Seal, Tar, Krasowiak, Song, Stephanov, Wang, Maggioni, Lin, Wu, Paul, Jiang, Agrawal, Piot, Feng, Kim, Doshi, Lai, Chuqiao, Xu, Vikram, Chelba, Krause, Zhuang, Rae, Denk, Collister, Weerts, Luo, Lu, Garnes, Gupta, Spitz, Hassidim, Liang, Shafran, Humphreys, Vassigh, Wallis, Shejwalkar, {Perez-Nieves}, Hornung, Tan, Westberg, Ly, Zhang, Farris,
+  Park, Kosik, Cankara, Maksai, Xu, Cassirer, Caelles, Abdolmaleki, Chiang, Fabrikant, Shetty, He, Gim{\'e}nez, Hashemi, Panthaplackel, Kulizhskaya, Deshmukh, Pighin, Alazard, Jindal, Noury, S, Qin, Dotiwalla, Spencer, Babaeizadeh, Chen, Mehta, Lees, Leach, Koanantakool, Akolzin, Comanescu, Ahn, Svyatkovskiy, Mustafa, D'Ambrosio, Garlapati, Lamblin, Agarwal, Song, Sessa, Coquinot, Maggs, Masoom, Pitta, Wang, {Morris-Suzuki}, Porter, Jia, Dudek, R, Paduraru, Ansell, Bolukbasi, Lu, Ganeshan, Wang, Griffiths, Benenson, He, Swirhun, Papamakarios, Chawla, Sengupta, Wang, Milutinovic, Mordatch, Jia, Smith, Ng, Nigam, Young, Vu{\v s}ak, Hechtman, Goenka, Zipori, Ayoub, Popat, Acharya, Yu, Bloxwich, Song, Roit, Li, Boag, Nayakanti, Chandra, Ding, Mehta, Hope, Zhang, Shtacher, Badola, Nakashima, Sozanschi, Com{\c s}a, {\v Z}u{\v z}ul, Caveness, Odell, Watson, de~Cesare, Lippe, Lockhart, Verma, Chen, Sun, Zhuo, Shah, Gupta, Muzio, Niu, Zait, Singh, Gaba, Ye, Ramachandran, Saleh, Popa, Dubey, Liu, Javanmardi, Epstein,
+  Hemsley, Green, Ranka, Cohen, Fu, Ghemawat, Borovik, Martens, Chen, Shyam, Pinto, Yang, {\c T}ifrea, Du, Gong, Agarwal, Kim, Frank, Shah, Song, Deng, Mikhalap, Chatziprimou, Chung, Creswell, Zhang, Jun, Lebsack, Truong, Anda{\v c}i{\'c}, Yona, Fornoni, Rong, Toropov, Soudagar, Audibert, Zaiem, Abbas, Rusu, Potluri, Weng, Kementsietsidis, Tsitsulin, Peng, Ha, Jain, Latkar, Ivanov, McLean, GP, Venkataraman, Liu, Krishnan, D'sa, Yogev, Collins, Lee, Ho, Doersch, Yona, Gao, Ferreira, Ozturel, Muckenhirn, Zheng, Balasubramaniam, Bansal, van~den Driessche, Eiger, Haykal, Misra, Goyal, Martins, Leung, Valfridsson, Flynn, Bishop, Pang, Halpern, Yu, Moore, Yuvein, Zhu, Thiagarajan, Drori, Xiao, Dery, Jagerman, Lu, Ge, Aggarwal, Khare, Tran, Elyada, Alet, Rubin, Chou, Tian, Bai, Chan, Lew, Misiunas, Bilal, Ray, Raghuram, {Castro-Ros}, Carpenter, Zheng, Kilgore, Broder, Xue, Kallakuri, Dua, Yuen, Chien, Schultz, Agrawal, Tsarfaty, Hu, Kannan, Marcus, Kothari, Sun, Horn, Bo{\v s}njak, Naeem, Hirsch, Chiang, Fang, Han,
+  Wang, Hora, He, Lu{\v c}i{\'c}, Changpinyo, Tripathi, Youssef, Kwak, Schlattner, Graves, Leblond, Zeng, Andreassen, Rasskin, Song, Cao, Oh, Hoffman, Skut, Zhang, Stritar, Cai, Khanna, Wang, Sharma, Reisswig, Jun, Prasad, Sholokhova, Singh, Rosenthal, Ruoss, Beaufays, Kirmani, Chen, Schalkwyk, Herzig, Kim, Jacob, Vincent, Reyes, Balazevic, Hussenot, Schneider, Barnes, Castro, Babbula, Green, Cabi, Duduta, Driess, Galt, Velan, Wang, Jiao, Mauger, Phan, Patel, Gali{\'c}, Chang, Marcus, Harvey, Salazar, Dabir, Sheth, Mandhane, Sedghi, Willcock, Zandieh, Prabhakara, Amini, Miech, Stone, Nicosia, Niemczyk, Xiao, Kim, Kwasiborski, Verma, Oflazer, Hirnschall, Sung, Liu, Everett, Bakker, Weisz, Wang, Sampathkumar, Shaham, Xu, Altun, Wang, Saeki, Chen, Taropa, Vasanth, Austin, Huang, Petrovic, Dou, Golovin, Rozhdestvenskiy, Culp, Wu, Sano, Jain, Proskurnia, Cevey, Ruiz, Patil, Mirzazadeh, Ni, Snaider, Fan, Fr{\'e}chette, Pierigiovanni, Iqbal, Lee, Fantacci, Xing, Wang, Irpan, Raposo, Luan, Chen, Ganapathy, Hui, Nie,
+  Guyon, Ge, Vij, Zheng, Lee, Casta{\~n}o, Baatarsukh, Ibagon, Chronopoulou, FitzGerald, Viswanadha, Huda, Moroshko, Stoyanov, Kolhar, Vaucher, Watts, Kuncoro, Michalewski, Kambala, Batsaikhan, Andreev, Jurenka, Le, Chen, Jishi, Chakera, Chen, Kini, Yadav, Siddhant, Labzovsky, Lakshminarayanan, Bostock, Botadra, Anand, Bishop, {Conway-Rahman}, Agarwal, Donchev, Singhal, Quitry, Ponomareva, Agrawal, Ni, Krishna, Samsikova, Karro, Du, von Glehn, Lu, {Choquette-Choo}, Qin, Zhang, Li, Tyam, Mishra, Lowe, Ji, Wang, Faruqui, Slone, Dalibard, Narayanaswamy, Lambert, Manzagol, Karliner, Bolt, Lobov, Kusupati, Ye, Yang, Zen, George, Bhutani, Lacombe, Riachi, Bansal, Soh, Gao, Yu, Yu, Nottage, {Rojas-Esponda}, Noraky, Gupta, Kotikalapudi, Chang, Deur, Graur, Mossin, Farnese, Figueira, Moufarek, Huang, Zochbauer, Ingram, Chen, Wu, Puigdom{\`e}nech, Rechis, Yu, Padmanabhan, Zhu, Ko, Banino, Daruki, Selvan, Bhaswar, Diaz, Su, Scellato, Brennan, Han, Chung, Agrawal, Khandelwal, Sim, Lustman, Ritter, Guu, Xia, Jain, Wang,
+  Hill, Rossini, Kostelac, Misiunas, Sabne, Kim, Iscen, Wang, Leal, Sreevatsa, Evci, Warmuth, Joshi, Suo, Lottes, Honke, Jou, Karp, Hu, Sahni, Ta{\"i}ga, Kong, Ghosh, Wang, Pavagadhi, Axelsson, Grigorev, Siegler, Lin, Wang, Parisotto, Maddineni, Subudhi, {Ben-David}, Pochernina, Keller, Avrahami, Yuan, Mehta, Liu, Yang, Kan, Lee, Funkhouser, Cheng, Shi, Sharma, Kelley, Eyal, Malkov, Tallec, Bahat, Yan, Xintian, Wu, Lindner, Wu, Caciularu, Luo, Jenatton, Zaman, Bi, Kornakov, Mallya, Ikeda, Karo, Singh, Evans, Netrapalli, Nallatamby, Tian, Assael, Raunak, Carbune, Bica, Madmoni, Cattle, Grover, Somandepalli, Lall, {V{\'a}zquez-Reina}, Patana, Mu, Talluri, Tran, Aggarwal, {Skerry-Ryan}, Xu, Burrows, Pan, Yvinec, Lu, Zhang, Nguyen, Mu, Barcik, Ran, Beltrone, Choromanski, Kharrat, Albanie, {Purser-haskell}, Bieber, Zhang, Wang, Hudson, Zhang, Fu, Mauerer, Bateni, Maschinot, Wang, Zhu, Pillai, Weyand, Liu, Akerlund, Bertsch, Premachandran, Jin, Roulet, de~Boursac, Mittal, Ndebele, Karadzhov, Ghalebikesabi, Liang,
+  Wu, Cong, Ghelani, Singh, Fatemi, Warren, Chen, Kwong, Kolganov, Li, Song, Kuang, Miryoosefi, Webster, Wendt, Socala, Su, Mendon{\c c}a, Gupta, Li, Tsai, Qiong, Hu, Kang, Chen, Girgin, Xian, Lee, Ramsden, Baker, Elish, Krayvanova, Joshi, Simsa, Yang, Ambroszczyk, Ghosh, Kar, Shangguan, Yamamori, Akulov, Brock, Tang, Vashishtha, Munoz, Steiner, Andra, Eppens, Feng, Kobayashi, Goldshtein, Mahdy, Wang, Jilei, Wang, Killam, Kwiatkowski, Kopparapu, Zhan, Jia, Bendebury, Luo, Recasens, Knight, Chen, Patel, Li, Withbroe, Weesner, Bhatia, Ren, Eisenbud, Songhori, Sun, Choma, Kementsietsidis, Manning, Roark, Farhan, Feng, Tatineni, {Cobon-Kerr}, Li, Hendricks, Noble, Breaux, Kushman, Peng, Xue, Tobin, Rogers, Lipschultz, Alberti, Vlaskin, Dehghani, Sharma, Warkentin, Lee, Uria, Juan, Chandorkar, Sheftel, Liu, Davoodi, Pigem, Dhamdhere, Ross, Hoech, Mahdieh, Liu, Li, McCafferty, Liu, Mircea, Song, Savant, Saade, Cherry, Hellendoorn, Goyal, Pucciarelli, Torres, Yahav, Lee, Sjoesund, Kirov, Chang, Ghoshal, Li,
+  Baechler, Pereira, Sainath, Boral, Grewe, Halumi, Phu, Shen, Ribeiro, Varma, Kaskasoli, Feinberg, Potti, Kahn, Wisniewski, Mohamed, Hrafnkelsson, Shahriari, Lespiau, Patel, Yeung, Paine, Mei, Ramirez, Shivanna, Zhong, Woodward, Tubone, Khan, Chen, Nielsen, Ionescu, Prabhu, Gao, Wang, Augenstein, Subramaniam, Chang, Iliopoulos, Luo, Khan, Kuo, Teplyashin, Perot, Kilpatrick, Globerson, Yu, Siddiqui, Sukhanov, Kandoor, Gupta, Andreetto, Ambar, Kim, Weso{\l}owski, Perrin, Limonchik, Fan, Stephan, {Stewart-Binks}, Kappedal, He, Cogan, Datta, Zhou, Ye, Kieliger, Ramalho, Kastner, Mentzer, Ko, Suggala, Zhou, Butt, Strej{\v c}ek, Belenki, Venugopalan, Ling, Eltyshev, Deng, Kovacs, Raghavachari, Dai, Schuster, Schwarcz, Nguyen, Nguyen, Buttimore, Mallick, Gandhe, Benjamin, Jastrzebski, Yan, Basu, Apps, Edkins, Allingham, Odisho, Kocisky, Zhao, Xue, Reddy, Anastasiou, Atias, Redmond, Milan, Heess, Schmit, Dafoe, Andor, Gangwani, Dragan, Zhang, Kachra, Wu, Xue, Aydin, Liu, Zhou, Malihi, Wu, Gopal, Schumann, Stys,
+  Wang, Ol{\v s}{\'a}k, Liu, Schallhart, Mao, Brady, Xu, Mery, Sitawarin, Velusamy, Cobley, Zhai, Walder, Katz, Jawahar, Kulkarni, Yang, Paszke, Wang, Damoc, Borsos, Smith, Li, Gupta, Kapishnikov, Prakash, Luisier, Agarwal, Grathwohl, Chen, Han, Mehta, Over, Azizi, Meng, Santo, Zheng, Shapiro, Petrovski, Hui, Ghafouri, Snoek, Qin, Jordan, Sikora, Malmaud, Kuang, {\'S}wietlik, Sang, Shi, Li, Rosenberg, Zhao, Crawford, Peter, Lei, Garcia, Le, Wang, Amelot, Orr, Kacham, Alon, Tyen, Arora, Lyon, Kurakin, Ly, Guidroz, Yan, Panigrahy, Xu, Kagohara, Cheng, Noland, Lee, Lee, Yip, Wang, Nehoran, Bykovsky, Shan, Bhagatwala, Yan, Tan, Garrido, Ethier, Hurley, Vesom, Chen, Qiao, Nayyar, Walker, Sandhu, Rosca, Swisher, Dektiarev, Dillon, Muraru, Tragut, Myaskovsky, Reid, Velic, Xiao, George, Brand, Li, Yu, Gu, Deng, Aubet, Yeganeh, Alcober, Smith, Cohn, McKinney, Tschannen, Sampath, Cheon, Luo, Liu, Orbay, Peng, Botea, Zhang, Yoon, Magalhaes, Stradomski, Mackinnon, Hemingray, Venkatesan, May, Kim, Druinsky, Ye, Xu, Huang,
+  Abdallah, Dostmohamed, Fellinger, Munkhdalai, Maurya, Garst, Zhang, Krikun, Bucher, Veerubhotla, Liu, Li, Gupta, Adamek, Chen, Orlando, Zaks, van Amersfoort, Camp, Wan, Choe, Wu, Olszewska, Yu, Vadali, Scholz, Freitas, Lin, Hua, Liu, Ding, Zhou, Severson, Tsihlas, Yang, Spalink, Yerram, Pankov, Blevins, Vargas, Jauhari, Miecnikowski, Zhang, Kumar, Farabet, Lan, Flennerhag, Bitton, Ma, Bra{\v z}inskas, Collins, Ahuja, Kudugunta, Bortsova, Giang, Zhu, Chi, Lundberg, Stern, Puttagunta, Xiong, Wu, Pande, Jhindal, Murphy, Clark, Brockschmidt, Deines, McKee, Bahir, Shen, Truong, McDuff, Gesmundo, Rosseel, Liang, Caluwaerts, Hamrick, Kready, Cassin, Ingale, Lao, Pollom, Ding, He, Bellot, Iljazi, Boppana, Han, Thompson, Khalifa, Bulanova, Mitrevski, Pang, Cooney, Shi, Coaguila, Yakar, Ranzato, Momchev, Rawles, Charles, Maeng, Zhang, Bansal, Zhao, Albert, Yuan, Vijayanarasimhan, Hirsch, Ramasesh, Vodrahalli, Wang, Gupta, Strouse, Ni, Patel, Taubman, Huo, Gharibian, Monteiro, Lam, Vasudevan, Chaudhary, Albuquerque,
+  Gupta, Riedel, Hegde, Ruderman, Gy{\"o}rgy, Wainwright, Chaugule, Ayan, Levinboim, Shleifer, Kalley, Mirrokni, Rao, Radhakrishnan, Hartford, Wu, Zhu, Bertolini, Xiong, Serrano, Tomlinson, Ott, Chang, Graham, Li, Liang, Long, Borgeaud, Ahmad, Grills, Mincu, Izzard, Liu, Xie, O'Bryan, Ponda, Tong, Liu, Malkin, Salama, Chen, Anil, Rao, Swavely, Bilenko, Anderson, Tan, Xie, Wu, Yu, Vinyals, Ryabtsev, Dangovski, Baumli, Keysers, Wright, Ashwood, Chan, Shtefan, Guo, Bapna, Soricut, Pecht, Ramos, Wang, Cai, Trinh, Barham, Friso, Stickgold, Ding, Shakeri, Ardila, Briakou, Culliton, Raveret, Cui, Saxton, Roy, Azizi, Yin, Loher, Bunner, Choi, Ahmed, Li, Li, Dai, Elabd, Ganapathy, Agrawal, Hua, Kunkle, Rajayogam, Ahuja, Conmy, Vasiloff, Beak, Yew, Mudigonda, Wydrowski, Blanton, Wang, Dauphin, Xu, Polacek, Chen, Hu, Sho, Kunesch, Manshadi, Rutherford, Li, Hsiao, Barr, Tudor, Kecman, Nagrani, Pchelin, Sundermeyer, S, Karmarkar, Gao, Chole, Bachem, Gao, BC, Dibb, Verzetti, {Hernandez-Campos}, Lunts, Johnson, Trapani,
+  Koster, Brusilovsky, Xiong, Mohabey, Ke, Zou, Saboli{\'c}, Campos, Palowitch, Morris, Qiu, Ponnuramu, Li, Sharma, Sodhia, Tekelioglu, Chuklin, Yenugula, Gemzer, Strinopoulos, {El-Husseini}, Wang, Zhong, Leurent, Natsev, Wang, Mahaarachchi, Zhu, Peng, Alabed, Lee, Brohan, Szlam, Oh, Kovsharov, Lee, Wong, Barnes, Thornton, Gimeno, Levy, Sevenich, Johnson, Mallinson, Dadashi, Wang, Ren, Lahoti, Dhar, Feldman, Zheng, Ulrich, Panait, Blokzijl, Baetu, Matak, Harlalka, Shah, Marian, von Dincklage, Du, {Ley-Wild}, Brownfield, Schumacher, Stuken, Noghabi, Gupta, Ren, Malmi, Weissenberger, Huergo, Bauza, Lampe, Douillard, Seyedhosseini, Frostig, Ghahramani, Nguyen, Krishnakumar, Ye, Gupta, Nazari, Geirhos, Shaw, Eleryan, Damen, Palomaki, Xiao, Wu, Yuan, Meadowlark, Bilotti, Lin, Sridhar, Schroecker, Chung, Luo, Strohman, Liu, Zheng, Emond, Wang, Lampinen, Fukuzawa, {Campbell-Ajala}, Roy, {Lee-Thorp}, Wang, Naim, Tony, Nguy{\textbackslash}{\textasciitilde}{\^e}n, Bensky, Gupta, Rogozi{\'n}ska, Fu, Pillai, Veli{\v
+  c}kovi{\'c}, Drath, Neubeck, Tulsyan, Klimovskiy, Metzler, Stevens, Yeh, Yuan, Yu, Zhang, Go, Tsang, Xu, Wan, {Galatzer-Levy}, Sobell, Toki, Salesky, Zhou, Antognini, Douglas, Wu, Lelkes, Kim, Cavallaro, Salazar, Liu, Besley, Refice, Jia, Li, Sokolik, Kannan, Simon, Chick, Aharon, Gandhi, Daswani, Amiri, Birodkar, Ittycheriah, Grabowski, Chang, Sutton, Zhixin, Lai, Telang, Sargsyan, Jiang, Hoffmann, Brichtova, Hessel, Halcrow, Jerome, Brown, Tomala, Buchatskaya, Yu, Menon, Moreno, Liao, Zayats, Tang, Mah, Shenoy, Siegman, Hadian, Kwon, Tu, Khajehnouri, Foley, Haghani, Wu, Keshava, Gupta, Bruguier, Yao, Karmon, Zintgraf, Wang, Piqueras, Jung, Brennan, Machado, Giustina, Tessler, Lee, Zhang, Moore, Daugaard, Fr{\"o}mmgen, Beattie, Zhang, Kasenberg, Geri, Qin, Tomar, Ouyang, Yu, Zhou, Mathews, Davis, Li, Gupta, Yates, Deng, Kemp, Joung, Vassilvitskii, Guo, LV, Dopson, Lachgar, McConnaughey, Choudhury, Dena, Cohen, Ainslie, Levi, Gopavarapu, Zablotskaia, Vallet, Bahargam, Tang, Tomasev, Dyer, Balle, Lee, Bono,
+  Mendez, Zubov, Yang, Rendulic, Zheng, Hogue, Pundak, Leith, Bhoopchand, Han, {\v Z}ani{\'c}, Schaul, Delakis, Iyer, Wang, Singh, Abdelhamed, Thomas, Brahma, Dib, Kumar, Zhou, Bai, Mishra, Sun, Anklin, Sukkerd, Agubuzu, Briukhov, Gulati, Sieb, Pardo, Nasso, Chen, Zhu, Sosea, Goldin, Rush, Hombaiah, Noever, Zhou, Haves, Phuong, Ades, Chen, Yang, Pagadora, Bileschi, Cotruta, Saputro, Pramanik, Ammirati, Garrette, Villela, Blyth, Akbulut, Jha, Rrustemi, Wongpanich, Nagpal, Wu, Rivi{\`e}re, Kishchenko, Srinivasan, Chen, Sinha, Pham, Jia, Hennigan, Bakalov, Attaluri, Garmon, Rodriguez, Wegner, Jia, Senter, Fiedel, Petek, Liu, Hardin, Lehri, Carreira, Smoot, Prasetya, Akazawa, Stefanoiu, Ho, Angelova, Lin, Kim, Chen, Sieniek, Li, Guo, Baltateanu, Tafti, Wunder, Olmert, Shukla, Shen, Kovelamudi, Venkatraman, Neel, Thoppilan, Connor, Benzing, Stjerngren, Ghiasi, Polozov, Howland, Weber, Chiu, Girirajan, Terzis, Wang, Li, Shalom, Tewari, Denton, Aharoni, Kalb, Zhao, Zhang, Filos, Rahtz, Jain, Fan, Rodrigues, Wang,
+  Shin, Austin, Ring, {Sanchez-Vargas}, Hassen, Kessler, Alon, Zhang, Chen, Ma, Si, Hou, Mirhoseini, Wilson, Bacon, Roelofs, Shu, Vasudevan, Adler, Dwornik, Terzi, Lawlor, Askham, Bernico, Dong, Hidey, Kilgour, Liu, Bhupatiraju, Leonhard, Zuo, Talukdar, Wei, Severyn, List{\'i}k, Lee, Tripathi, Park, Matias, Liu, Ruiz, Jayaram, Tolins, Marcenac, Wang, Seybold, Prior, Sharma, Weber, Sirotenko, Sung, Du, Pavlick, Zinke, Freitag, Dylla, Arenas, Potikha, Goldman, Tao, Chhaparia, Voitovich, Dogra, Ra{\v z}natovi{\'c}, Tsai, You, Johnson, Tucker, Gu, Yoo, Majzoubi, Gabeur, Raad, Rhodes, Kolipaka, Howard, Sampemane, Li, Asawaroengchai, Nguyen, Zhang, Cour, Yu, Fu, Jiang, Huang, Surita, Iturrate, Karov, Collins, Baeuml, Fuchs, Shetty, Ramaswamy, Ebrahimi, Guo, Shar, {Barth-Maron}, Addepalli, Richter, Cheng, Rives, Zheng, Griesser, Dikkala, Zeldes, Safarli, Das, Srivastava, Khan, Li, Pandey, Markeeva, Belov, Yan, Rybi{\'n}ski, Chen, Nawhal, Quinn, Govindaraj, York, Roberts, Garg, Godbole, Abernethy, Das, Thiet,
+  Tompson, Nham, Vats, Caine, Helmholz, Pongetti, Ko, An, Hu, Ling, Pawar, Leland, Kinoshita, Khawaja, Selvi, Ie, Sinopalnikov, Proleev, Tripuraneni, Bevilacqua, Lee, Sanford, Suh, Tran, Dean, Baumgartner, Heitkaemper, Gubbi, Toutanova, Xu, Thekkath, Rong, Jain, Xie, Virin, Li, Litchev, Powell, Bharti, Kraft, Hua, Ikonomidis, Hitron, Kumar, Matthey, Bridgers, Lax, Malhi, Skopek, Gupta, Cao, Rasquinha, P{\~o}der, Stokowiec, Roth, Li, Sander, Kessinger, Jain, Loper, Park, Yarom, Cheng, Guruganesh, Rao, Li, Barros, Sushkov, Ferng, Shah, Aharoni, Kumar, McConnell, Li, Wang, Pereira, Swanson, Jamil, Xiong, Vijayakumar, Shroff, Soparkar, Gu, Soares, Wang, Majmundar, Wei, Bailey, Kassner, Kawamoto, {\v Z}u{\v z}i{\'c}, Gomes, Gupta, Guzman, Dasgupta, Bai, Pan, Piccinno, Vogel, Ponce, Hutter, Chang, Jiang, Gog, Ionescu, Manyika, Pedregosa, Ragan, Behrman, Mullins, Devin, Pyne, Gawde, Chadwick, Gu, Tavakkol, Twigg, Goyal, Elue, Goldie, Venkatachary, Fei, Feng, Ritter, Leal, Dasari, Sun, Rochman, O'Donoghue, Liu,
+  Sproch, Chen, Clay, Petrov, Sidhwani, Mihailescu, Panagopoulos, Piergiovanni, Bai, Powell, Karkhanis, Yacovone, Mitrichev, Kovac, Uthus, Yazdanbakhsh, Amos, Zheng, Zhang, Miao, Ramabhadran, Radpour, Thakoor, Newlan, Lang, Jankowski, Bharadwaj, Sarr, Ashraf, Mondal, Yan, Rawat, Velury, Kochanski, Eccles, Och, Sharma, Mahintorabi, Gurney, Muir, Cohen, Thakur, Bloniarz, Mujika, Pritzel, Caron, Rahman, Lang, Onoe, Sirkovic, Hoover, Jian, Duque, Narayanan, Soergel, Haig, Maggiore, Buch, Dean, Figotin, Karpov, Gupta, Zhou, Huang, Vaswani, Semturs, Shivakumar, Watanabe, Rajendran, Lu, Hou, Ye, Vashishth, Nti, Sakenas, Ni, DeCarlo, Bendersky, Bagri, Cano, Peake, Tokumine, Godbole, Gu{\'i}a, Lando, Selo, Ellis, Tarlow, Gillick, Epasto, Jonnalagadda, Wei, Xie, Taly, Paganini, Sundararajan, Toyama, Yu, Petrova, Pappu, Agrawal, Buthpitiya, Frye, Buschmann, Crocker, Tagliasacchi, Wang, Huang, Perel, Wieder, Kazawa, Wang, Cole, Gupta, Golan, Bang, Kulkarni, Franko, Liu, Reid, Dalmia, Whang, Cen, Sundaram, Ferret, Isik,
+  Ionita, Sun, Shekhawat, Mohammad, Pham, Huang, Raman, Zhou, Mcilroy, Myers, Peng, Scott, Covington, Erell, Joshi, Oliveira, Noy, Nasir, Walker, Axelrod, Dozat, Han, Chu, Weinstein, Shukla, Chandrakaladharan, Poklukar, Li, Jin, Eruvbetine, Hansen, Dabush, Jacovi, Phatale, Zhu, Baker, Shomrat, Xiao, {Pouget-Abadie}, Zhang, Wei, Song, King, Huang, Zhu, Sun, Franco, Lin, Arora, Hui, Li, Xia, Vilnis, Schain, Alarakyia, Prince, Phillips, Habtegebriel, Xu, Gui, Ontanon, Aroyo, Gill, Lu, Katariya, Madeka, Krishnan, Raghvendra, Freedman, Tay, Menghani, Choy, Shetty, Abolafia, Kukliansky, Chou, Lichtarge, Burke, Coleman, Guo, Jin, Bhattacharya, Langston, Li, Kotecha, Yakubovich, Chen, Petrov, Powell, He, Quick, Garg, Hwang, Lu, Bhojanapalli, Kjems, Mehran, Archer, van Hasselt, Balakrishna, Kearns, Guo, Riesa, Sazanovich, Gao, Sauer, Yang, Sheng, Jimma, Gansbeke, Nikolaev, Wei, Millican, Zhao, Snyder, Bolelli, O'Brien, Xu, Xia, Yuan, Neelakantan, Barker, Yadav, Kirkwood, Ahmad, Wee, Grimstad, Wang, Wiethoff, Settle,
+  Wang, Blundell, Chen, Duvarney, Hu, Ronneberger, Lee, Li, Chakladar, Butryna, Evangelopoulos, Desjardins, Kanerva, Wang, Nowak, Li, Loo, Khurshudov, Shafey, Baddi, Lenc, Razeghi, Lieber, Sinha, Ma, Su, Huang, Ushio, {Klimczak-Pluci{\'n}ska}, Mohamed, Chen, Osindero, Ginzburg, Lamprou, Bashlovkina, Tran, Khodaei, Anand, Di, Eskander, Vuyyuru, Liu, Kamath, Goldenberg, Bellaiche, Pluto, Rosgen, Mansoor, Wong, Ganesh, Bailey, Baird, Deutsch, Baek, Jia, Lee, Friesen, Braun, Lee, Panda, Hernandez, Williams, Liu, Liang, Autef, Pitler, Jain, Kirk, Bunyan, Elias, Yin, Reid, Pope, Putikhin, Samanta, Guadarrama, Kim, Rowe, Valentine, Yan, Salcianu, Silver, Song, Singh, Ye, DeBalsi, Merey, Ofek, Webson, Mourad, Kakarla, Lattanzi, Roy, Sluzhaev, Butterfield, Tonioni, Waters, Kopalle, Chase, Cohan, Rao, Berry, Voznesensky, Hu, Chiafullo, Chikkerur, Scrivener, Zheng, Wiesner, Macherey, Lillicrap, Liu, Walker, Welling, Davies, Huang, Ren, Shabat, Agostini, Iinuma, Zelle, Sathyanarayana, D'olimpio, Redshaw, Ginsberg,
+  Murthy, Geller, Matejovicova, Chakrabarti, Julian, Chan, Hu, Jarrett, Agarwal, Challagundla, Li, Tata, Ding, Meng, Dai, Vezzani, Garg, Bulian, Jasarevic, Cai, Rajamani, Santoro, Hartmann, Liang, Perz, Jindal, Bu, Seo, Poplin, Goedeckemeyer, Ghazi, Khadke, Liu, Mather, Zhang, Shah, Chen, Wei, Shivam, Cao, Cho, Scarpati, Moffitt, Barbu, Jurin, Chang, Liu, Zheng, Dave, {Kaeser-Chen}, Yu, Abdagic, Gonzalez, Huang, Zhong, Schmid, Petrini, Wertheim, Zhu, Nguyen, Ji, Zhou, Zhou, Feng, Cohen, Rim, Phal, Georgiev, Brand, Ma, Li, Gupta, Wang, Dubov, Tarbouriech, Majumder, Li, Rink, Suman, Guo, Sun, Nair, Xu, Elhawaty, Cabrera, Han, Eisenschlos, Bai, Li, Bansal, Sellam, Khan, Nguyen, {Mao-Jones}, Parotsidis, Marcus, Fan, Zimmermann, Kochinski, Graesser, Behbahani, Caceres, Riley, Kane, Lefdal, Willoughby, Vicol, Wang, Zhang, Gill, Liang, Prasad, Mariooryad, Kazemi, Wang, Muralidharan, Voigtlaender, Zhao, Zhou, D'Souza, Mavalankar, Arnold, Young, Sarvana, Lee, Nasr, Zou, Kim, Haas, Patel, Bulut, Parkinson, Biles,
+  Kalashnikov, To, Kumar, Austin, Greve, Zhang, Goel, Li, Yaroshenko, Chang, Jindal, Clark, Taitelbaum, Johnson, Roval, Ko, Mohananey, Schuler, Dodhia, Li, Osawa, Cui, Xu, Shah, Huang, Gruzewska, Clement, Verma, Sercinoglu, Qian, Shah, Yamaguchi, Modi, Kosakai, Strohmann, Zeng, Gunel, Qian, Tarango, Jastrz{\k e}bski, David, Shan, Schuh, Lad, Gierke, Madhavan, Chen, Kurzeja, {Santamaria-Fernandez}, Chen, Cordell, Chervonyi, Garcia, Kannen, Perot, Ding, {Cohen-Ganor}, Lavrenko, Wu, Evans, dos Santos, Sewak, Brown, Hard, Puigcerver, Zheng, Liang, Gladchenko, Ingle, First, Sermanet, Magister, Velimirovi{\'c}, Reddi, Ricco, Agustsson, Adam, Levine, Gaddy, {Holtmann-Rice}, Wang, Sathe, Roy, Bratani{\v c}, Carin, Mehta, Bonacina, Cao, Finkelstein, Rieser, Wu, Altch{\'e}, Scandinaro, Li, Vieillard, Sethi, Tanzer, Xing, Wang, Bhatia, Citovsky, Anthony, Lin, Shi, Jakobovits, Gibson, Apte, Lee, Chen, Byravan, Maniatis, Webster, Dai, Chen, Pan, Fadeeva, Gleicher, Luong, and Bhumihar}]{comaniciGemini25Pushing2025}
+Gheorghe Comanici, Eric Bieber, Mike Schaekermann, Ice Pasupat, Noveen Sachdeva, Inderjit Dhillon, Marcel Blistein, Ori Ram, Dan Zhang, Evan Rosen, Luke Marris, Sam Petulla, Colin Gaffney, Asaf Aharoni, Nathan Lintz, Tiago~Cardal Pais, Henrik Jacobsson, Idan Szpektor, Nan-Jiang Jiang, and 3290 others. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2507.06261} {Gemini 2.5: {{Pushing}} the {{Frontier}} with {{Advanced Reasoning}}, {{Multimodality}}, {{Long Context}}, and {{Next Generation Agentic Capabilities}}}.
+\newblock \emph{Preprint}, arXiv:2507.06261.
+
+\bibitem[{Conneau et~al.(2018)Conneau, Rinott, Lample, Williams, Bowman, Schwenk, and Stoyanov}]{conneau-etal-2018-xnli}
+Alexis Conneau, Ruty Rinott, Guillaume Lample, Adina Williams, Samuel Bowman, Holger Schwenk, and Veselin Stoyanov. 2018.
+\newblock \href {https://doi.org/10.18653/v1/D18-1269} {{XNLI}: Evaluating cross-lingual sentence representations}.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing}, pages 2475--2485, Brussels, Belgium. Association for Computational Linguistics.
+
+\bibitem[{Contributors(2023)}]{2023opencompass}
+OpenCompass Contributors. 2023.
+\newblock Opencompass: A universal evaluation platform for foundation models.
+\newblock \url{https://github.com/open-compass/opencompass}.
+
+\bibitem[{Cui et~al.(2025)Cui, Gao, Liu, Luan, and Wang}]{cui-etal-2025-multilingual}
+Menglong Cui, Pengzhi Gao, Wei Liu, Jian Luan, and Bin Wang. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.naacl-long.280} {Multilingual machine translation with open large language models at practical scale: An empirical study}.
+\newblock In \emph{Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)}, pages 5420--5443, Albuquerque, New Mexico. Association for Computational Linguistics.
+
+\bibitem[{Dang et~al.(2024)Dang, Singh, D'souza, Ahmadian, Salamanca, Smith, Peppin, Hong, Govindassamy, Zhao, Kublik, Amer, Aryabumi, Campos, Tan, Kocmi, Strub, Grinsztajn, {Flet-Berliac}, Locatelli, Lin, Talupuru, Venkitesh, Cairuz, Yang, Chung, Ko, Shi, Shukayev, Bae, Piktus, Castagn{\'e}, {Cruz-Salinas}, Kim, {Crawhall-Stein}, Morisot, Roy, Blunsom, Zhang, Gomez, Frosst, Fadaee, Ermis, {\"U}st{\"u}n, and Hooker}]{dangAyaExpanseCombining2024}
+John Dang, Shivalika Singh, Daniel D'souza, Arash Ahmadian, Alejandro Salamanca, Madeline Smith, Aidan Peppin, Sungjin Hong, Manoj Govindassamy, Terrence Zhao, Sandra Kublik, Meor Amer, Viraat Aryabumi, Jon~Ander Campos, Yi-Chern Tan, Tom Kocmi, Florian Strub, Nathan Grinsztajn, Yannis {Flet-Berliac}, and 26 others. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2412.04261} {Aya {{Expanse}}: {{Combining Research Breakthroughs}} for a {{New Multilingual Frontier}}}.
+\newblock \emph{Preprint}, arXiv:2412.04261.
+
+\bibitem[{{DeepSeek-AI} et~al.(2025{\natexlab{a}}){DeepSeek-AI}, Guo, Yang, Zhang, Song, Zhang, Xu, Zhu, Ma, Wang, Bi, Zhang, Yu, Wu, Wu, Gou, Shao, Li, Gao, Liu, Xue, Wang, Wu, Feng, Lu, Zhao, Deng, Zhang, Ruan, Dai, Chen, Ji, Li, Lin, Dai, Luo, Hao, Chen, Li, Zhang, Bao, Xu, Wang, Ding, Xin, Gao, Qu, Li, Guo, Li, Wang, Chen, Yuan, Qiu, Li, Cai, Ni, Liang, Chen, Dong, Hu, Gao, Guan, Huang, Yu, Wang, Zhang, Zhao, Wang, Zhang, Xu, Xia, Zhang, Zhang, Tang, Li, Wang, Li, Tian, Huang, Zhang, Wang, Chen, Du, Ge, Zhang, Pan, Wang, Chen, Jin, Chen, Lu, Zhou, Chen, Ye, Wang, Yu, Zhou, Pan, Li, Zhou, Wu, Ye, Yun, Pei, Sun, Wang, Zeng, Zhao, Liu, Liang, Gao, Yu, Zhang, Xiao, An, Liu, Wang, Chen, Nie, Cheng, Liu, Xie, Liu, Yang, Li, Su, Lin, Li, Jin, Shen, Chen, Sun, Wang, Song, Zhou, Wang, Shan, Li, Wang, Wei, Zhang, Xu, Li, Zhao, Sun, Wang, Yu, Zhang, Shi, Xiong, He, Piao, Wang, Tan, Ma, Liu, Guo, Ou, Wang, Gong, Zou, He, Xiong, Luo, You, Liu, Zhou, Zhu, Xu, Huang, Li, Zheng, Zhu, Ma, Tang, Zha, Yan, Ren, Ren, Sha,
+  Fu, Xu, Xie, Zhang, Hao, Ma, Yan, Wu, Gu, Zhu, Liu, Li, Xie, Song, Pan, Huang, Xu, Zhang, and Zhang}]{deepseek-aiDeepSeekR1IncentivizingReasoning2025a}
+{DeepSeek-AI}, Daya Guo, Dejian Yang, Haowei Zhang, Junxiao Song, Ruoyu Zhang, Runxin Xu, Qihao Zhu, Shirong Ma, Peiyi Wang, Xiao Bi, Xiaokang Zhang, Xingkai Yu, Yu~Wu, Z.~F. Wu, Zhibin Gou, Zhihong Shao, Zhuoshu Li, Ziyi Gao, and 181 others. 2025{\natexlab{a}}.
+\newblock \href {https://doi.org/10.48550/arXiv.2501.12948} {{{DeepSeek-R1}}: {{Incentivizing Reasoning Capability}} in {{LLMs}} via {{Reinforcement Learning}}}.
+\newblock \emph{Preprint}, arXiv:2501.12948.
+
+\bibitem[{{DeepSeek-AI} et~al.(2025{\natexlab{b}}){DeepSeek-AI}, Liu, Feng, Xue, Wang, Wu, Lu, Zhao, Deng, Zhang, Ruan, Dai, Guo, Yang, Chen, Ji, Li, Lin, Dai, Luo, Hao, Chen, Li, Zhang, Bao, Xu, Wang, Zhang, Ding, Xin, Gao, Li, Qu, Cai, Liang, Guo, Ni, Li, Wang, Chen, Chen, Yuan, Qiu, Li, Song, Dong, Hu, Gao, Guan, Huang, Yu, Wang, Zhang, Xu, Xia, Zhao, Wang, Zhang, Li, Wang, Zhang, Zhang, Tang, Li, Tian, Huang, Wang, Zhang, Wang, Zhu, Chen, Du, Chen, Jin, Ge, Zhang, Pan, Wang, Xu, Zhang, Chen, Li, Lu, Zhou, Chen, Wu, Ye, Ye, Ma, Wang, Zhou, Yu, Zhou, Pan, Wang, Yun, Pei, Sun, Xiao, Zeng, Zhao, An, Liu, Liang, Gao, Yu, Zhang, Li, Jin, Wang, Bi, Liu, Wang, Shen, Chen, Zhang, Chen, Nie, Sun, Wang, Cheng, Liu, Xie, Liu, Yu, Song, Shan, Zhou, Yang, Li, Su, Lin, Li, Wang, Wei, Zhu, Zhang, Xu, Xu, Huang, Li, Zhao, Sun, Li, Wang, Yu, Zheng, Zhang, Shi, Xiong, He, Tang, Piao, Wang, Tan, Ma, Liu, Guo, Wu, Ou, Zhu, Wang, Gong, Zou, He, Zha, Xiong, Ma, Yan, Luo, You, Liu, Zhou, Wu, Ren, Ren, Sha, Fu, Xu, Huang, Zhang,
+  Xie, Zhang, Hao, Gou, Ma, Yan, Shao, Xu, Wu, Zhang, Li, Gu, Zhu, Liu, Li, Xie, Song, Gao, and Pan}]{deepseek-aiDeepSeekV3TechnicalReport2025}
+{DeepSeek-AI}, Aixin Liu, Bei Feng, Bing Xue, Bingxuan Wang, Bochao Wu, Chengda Lu, Chenggang Zhao, Chengqi Deng, Chenyu Zhang, Chong Ruan, Damai Dai, Daya Guo, Dejian Yang, Deli Chen, Dongjie Ji, Erhang Li, Fangyun Lin, Fucong Dai, and 181 others. 2025{\natexlab{b}}.
+\newblock \href {https://doi.org/10.48550/arXiv.2412.19437} {{{DeepSeek-V3 Technical Report}}}.
+\newblock \emph{Preprint}, arXiv:2412.19437.
+
+\bibitem[{{DeepSeek-AI} et~al.(2024){DeepSeek-AI}, Zhu, Guo, Shao, Yang, Wang, Xu, Wu, Li, Gao, Ma, Zeng, Bi, Gu, Xu, Dai, Dong, Zhang, Piao, Gou, Xie, Hao, Wang, Song, Chen, Xie, Guan, You, Liu, Du, Gao, Lu, Chen, Wang, Deng, Li, Zhao, Ruan, Luo, and Liang}]{deepseek-aiDeepSeekCoderV2BreakingBarrier2024}
+{DeepSeek-AI}, Qihao Zhu, Daya Guo, Zhihong Shao, Dejian Yang, Peiyi Wang, Runxin Xu, Y.~Wu, Yukun Li, Huazuo Gao, Shirong Ma, Wangding Zeng, Xiao Bi, Zihui Gu, Hanwei Xu, Damai Dai, Kai Dong, Liyue Zhang, Yishi Piao, and 21 others. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2406.11931} {{{DeepSeek-Coder-V2}}: {{Breaking}} the {{Barrier}} of {{Closed-Source Models}} in {{Code Intelligence}}}.
+\newblock \emph{Preprint}, arXiv:2406.11931.
+
+\bibitem[{Dettmers et~al.(2023)Dettmers, Pagnoni, Holtzman, and Zettlemoyer}]{dettmersQLoRAEfficientFinetuning2023}
+Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, and Luke Zettlemoyer. 2023.
+\newblock {{QLoRA}}: {{Efficient Finetuning}} of {{Quantized LLMs}}.
+\newblock In \emph{Thirty-Seventh {{Conference}} on {{Neural Information Processing Systems}}}.
+
+\bibitem[{Dou et~al.(2025)Dou, Liu, Zhou, Chen, Wang, Jin, Liu, Zhu, Du, Yang, Wang, Liu, Zhao, Feng, Mao, Yeung, Pipatanakul, Koto, Thu, Kydl{\'i}{\v c}ek, Liu, Lin, Sripaisarnmongkol, {Sae-Khow}, Thongchim, Konkaew, Borijindargoon, Dao, Maneegard, Artkaew, Yong, Nguyen, Phatthiyaphaibun, Tran, Zhang, Chen, Pang, Du, Wan, Lu, and Lin}]{douSailor2SailingSouthEast2025}
+Longxu Dou, Qian Liu, Fan Zhou, Changyu Chen, Zili Wang, Ziqi Jin, Zichen Liu, Tongyao Zhu, Cunxiao Du, Penghui Yang, Haonan Wang, Jiaheng Liu, Yongchi Zhao, Xiachong Feng, Xin Mao, Man~Tsung Yeung, Kunat Pipatanakul, Fajri Koto, Min~Si Thu, and 22 others. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2502.12982} {Sailor2: {{Sailing}} in {{South-East Asia}} with {{Inclusive Multilingual LLMs}}}.
+\newblock \emph{Preprint}, arXiv:2502.12982.
+
+\bibitem[{Dubey et~al.(2024)Dubey, Jauhri, Pandey, Kadian, {Al-Dahle}, Letman, Mathur, Schelten, Yang, Fan, Goyal, Hartshorn, Yang, Mitra, Sravankumar, Korenev, Hinsvark, Rao, Zhang, Rodriguez, Gregerson, Spataru, Roziere, Biron, Tang, Chern, Caucheteux, Nayak, Bi, Marra, McConnell, Keller, Touret, Wu, Wong, Ferrer, Nikolaidis, Allonsius, Song, Pintz, Livshits, Esiobu, Choudhary, Mahajan, {Garcia-Olano}, Perino, Hupkes, Lakomkin, AlBadawy, Lobanova, Dinan, Smith, Radenovic, Zhang, Synnaeve, Lee, Anderson, Nail, Mialon, Pang, Cucurell, Nguyen, Korevaar, Xu, Touvron, Zarov, Ibarra, Kloumann, Misra, Evtimov, Copet, Lee, Geffert, Vranes, Park, Mahadeokar, Shah, {van der Linde}, Billock, Hong, Lee, Fu, Chi, Huang, Liu, Wang, Yu, Bitton, Spisak, Park, Rocca, Johnstun, Saxe, Jia, Alwala, Upasani, Plawiak, Li, Heafield, Stone, {El-Arini}, Iyer, Malik, Chiu, Bhalla, {Rantala-Yeary}, {van der Maaten}, Chen, Tan, Jenkins, Martin, Madaan, Malo, Blecher, Landzaat, {de Oliveira}, Muzzi, Pasupuleti, Singh, Paluri, Kardas,
+  Oldham, Rita, Pavlova, Kambadur, Lewis, Si, Singh, Hassan, Goyal, Torabi, Bashlykov, Bogoychev, Chatterji, Duchenne, {\c C}elebi, Alrassy, Zhang, Li, Vasic, Weng, Bhargava, Dubal, Krishnan, Koura, Xu, He, Dong, Srinivasan, Ganapathy, Calderer, Cabral, Stojnic, Raileanu, Girdhar, Patel, Sauvestre, Polidoro, Sumbaly, Taylor, Silva, Hou, Wang, Hosseini, Chennabasappa, Singh, Bell, Kim, Edunov, Nie, Narang, Raparthy, Shen, Wan, Bhosale, Zhang, Vandenhende, Batra, Whitman, Sootla, Collot, Gururangan, Borodinsky, Herman, Fowler, Sheasha, Georgiou, Scialom, Speckbacher, Mihaylov, Xiao, Karn, Goswami, Gupta, Ramanathan, Kerkez, Gonguet, Do, Vogeti, Petrovic, Chu, Xiong, Fu, Meers, Martinet, Wang, Tan, Xie, Jia, Wang, Goldschlag, Gaur, Babaei, Wen, Song, Zhang, Li, Mao, Coudert, Yan, Chen, Papakipos, Singh, Grattafiori, Jain, Kelsey, Shajnfeld, Gangidi, Victoria, Goldstand, Menon, Sharma, Boesenberg, Vaughan, Baevski, Feinstein, Kallet, Sangani, Yunus, Lupu, Alvarado, Caples, Gu, Ho, Poulton, Ryan, Ramchandani,
+  Franco, Saraf, Chowdhury, Gabriel, Bharambe, Eisenman, Yazdan, James, Maurer, Leonhardi, Huang, Loyd, De~Paola, Paranjape, Liu, Wu, Ni, Hancock, Wasti, Spence, Stojkovic, Gamido, Montalvo, Parker, Burton, Mejia, Wang, Kim, Zhou, Hu, Chu, Cai, Tindal, Feichtenhofer, Civin, Beaty, Kreymer, Li, Wyatt, Adkins, Xu, Testuggine, David, Parikh, Liskovich, Foss, Wang, Le, Holland, Dowling, Jamil, Montgomery, Presani, Hahn, Wood, Brinkman, Arcaute, Dunbar, Smothers, Sun, Kreuk, Tian, Ozgenel, Caggioni, Guzm{\'a}n, Kanayet, Seide, Florez, Schwarz, Badeer, Swee, Halpern, Thattai, Herman, Sizov, Guangyi, Zhang, Lakshminarayanan, Shojanazeri, Zou, Wang, Zha, Habeeb, Rudolph, Suk, Aspegren, Goldman, Molybog, Tufanov, Veliche, Gat, Weissman, Geboski, Kohli, Asher, Gaya, Marcus, Tang, Chan, Zhen, Reizenstein, Teboul, Zhong, Jin, Yang, Cummings, Carvill, Shepard, McPhie, Torres, Ginsburg, Wang, Wu, U, Saxena, Prasad, Khandelwal, Zand, Matosich, Veeraraghavan, Michelena, Li, Huang, Chawla, Lakhotia, Huang, Chen, Garg, A,
+  Silva, Bell, Zhang, Guo, Yu, Moshkovich, Wehrstedt, Khabsa, Avalani, Bhatt, Tsimpoukelli, Mankus, Hasson, Lennie, Reso, Groshev, Naumov, Lathi, Keneally, Seltzer, Valko, Restrepo, Patel, Vyatskov, Samvelyan, Clark, Macey, Wang, Hermoso, Metanat, Rastegari, Bansal, Santhanam, Parks, White, Bawa, Singhal, Egebo, Usunier, Laptev, Dong, Zhang, Cheng, Chernoguz, Hart, Salpekar, Kalinli, Kent, Parekh, Saab, Balaji, Rittner, Bontrager, Roux, Dollar, Zvyagina, Ratanchandani, Yuvraj, Liang, Alao, Rodriguez, Ayub, Murthy, Nayani, Mitra, Li, Hogan, Battey, Wang, Maheswari, Howes, Rinott, Bondu, Datta, Chugh, Hunt, Dhillon, Sidorov, Pan, Verma, Yamamoto, Ramaswamy, Lindsay, Lindsay, Feng, Lin, Zha, Shankar, Zhang, Zhang, Wang, Agarwal, Sajuyigbe, Chintala, Max, Chen, Kehoe, Satterfield, Govindaprasad, Gupta, Cho, Virk, Subramanian, Choudhury, Goldman, Remez, Glaser, Best, Kohler, Robinson, Li, Zhang, Matthews, Chou, Shaked, Vontimitta, Ajayi, Montanez, Mohan, Kumar, Mangla, Ionescu, Poenaru, Mihailescu, Ivanov, Li,
+  Wang, Jiang, Bouaziz, Constable, Tang, Wang, Wu, Wang, Xia, Wu, Gao, Chen, Hu, Jia, Qi, Li, Zhang, Zhang, Adi, Nam, Yu, Wang, Hao, Qian, He, Rait, DeVito, Rosnbrick, Wen, Yang, and Zhao}]{dubeyLlama3Herd2024}
+Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek Kadian, Ahmad {Al-Dahle}, Aiesha Letman, Akhil Mathur, Alan Schelten, Amy Yang, Angela Fan, Anirudh Goyal, Anthony Hartshorn, Aobo Yang, Archi Mitra, Archie Sravankumar, Artem Korenev, Arthur Hinsvark, Arun Rao, Aston Zhang, and 514 others. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2407.21783} {The {{Llama}} 3 {{Herd}} of {{Models}}}.
+\newblock \emph{Preprint}, arXiv:2407.21783.
+
+\bibitem[{Feng et~al.(2025)Feng, Cao, Ren, Su, Chen, Zhang, Xu, Hu, Wu, and Liu}]{feng2025mtr1zeroadvancingllmbasedmachine}
+Zhaopeng Feng, Shaosheng Cao, Jiahan Ren, Jiayuan Su, Ruizhe Chen, Yan Zhang, Zhe Xu, Yao Hu, Jian Wu, and Zuozhu Liu. 2025.
+\newblock \href {https://arxiv.org/abs/2504.10160} {Mt-r1-zero: Advancing llm-based machine translation via r1-zero-like reinforcement learning}.
+\newblock \emph{Preprint}, arXiv:2504.10160.
+
+\bibitem[{Gao et~al.(2025)Gao, Huang, Zhu, Huang, Li, and Yuan}]{gao2025thinkingmultilinguallyempowerllm}
+Changjiang Gao, Xu~Huang, Wenhao Zhu, Shujian Huang, Lei Li, and Fei Yuan. 2025.
+\newblock \href {https://arxiv.org/abs/2504.11833} {Could thinking multilingually empower llm reasoning?}
+\newblock \emph{Preprint}, arXiv:2504.11833.
+
+\bibitem[{Gao et~al.(2024)Gao, Tow, Abbasi, Biderman, Black, DiPofi, Foster, Golding, Hsu, Le~Noac'h, Li, McDonell, Muennighoff, Ociepa, Phang, Reynolds, Schoelkopf, Skowron, Sutawika, Tang, Thite, Wang, Wang, and Zou}]{eval-harness}
+Leo Gao, Jonathan Tow, Baber Abbasi, Stella Biderman, Sid Black, Anthony DiPofi, Charles Foster, Laurence Golding, Jeffrey Hsu, Alain Le~Noac'h, Haonan Li, Kyle McDonell, Niklas Muennighoff, Chris Ociepa, Jason Phang, Laria Reynolds, Hailey Schoelkopf, Aviya Skowron, Lintang Sutawika, and 5 others. 2024.
+\newblock \href {https://doi.org/10.5281/zenodo.12608602} {The language model evaluation harness}.
+
+\bibitem[{{Gemma Team} et~al.(2025){Gemma Team}, Kamath, Ferret, Pathak, Vieillard, Merhej, Perrin, Matejovicova, Ram{\'e}, Rivi{\`e}re, Rouillard, Mesnard, Cideron, Grill, Ramos, Yvinec, Casbon, Pot, Penchev, Liu, Visin, Kenealy, Beyer, Zhai, Tsitsulin, {Busa-Fekete}, Feng, Sachdeva, Coleman, Gao, Mustafa, Barr, Parisotto, Tian, Eyal, Cherry, Peter, Sinopalnikov, Bhupatiraju, Agarwal, Kazemi, Malkin, Kumar, Vilar, Brusilovsky, Luo, Steiner, Friesen, Sharma, Sharma, Gilady, Goedeckemeyer, Saade, Feng, Kolesnikov, Bendebury, Abdagic, Vadi, Gy{\"o}rgy, Pinto, Das, Bapna, Miech, Yang, Paterson, Shenoy, Chakrabarti, Piot, Wu, Shahriari, Petrini, Chen, Lan, {Choquette-Choo}, Carey, Brick, Deutsch, Eisenbud, Cattle, Cheng, Paparas, Sreepathihalli, Reid, Tran, Zelle, Noland, Huizenga, Kharitonov, Liu, Amirkhanyan, Cameron, Hashemi, {Klimczak-Pluci{\'n}ska}, Singh, Mehta, Lehri, Hazimeh, Ballantyne, Szpektor, Nardini, {Pouget-Abadie}, Chan, Stanton, Wieting, Lai, Orbay, Fernandez, Newlan, Ji, Singh, Black, Yu, Hui,
+  Vodrahalli, Greff, Qiu, Valentine, Coelho, Ritter, Hoffman, Watson, Chaturvedi, Moynihan, Ma, Babar, Noy, Byrd, Roy, Momchev, Chauhan, Sachdeva, Bunyan, Botarda, Caron, Rubenstein, Culliton, Schmid, Sessa, Xu, Stanczyk, Tafti, Shivanna, Wu, Pan, Rokni, Willoughby, Vallu, Mullins, Jerome, Smoot, Girgin, Iqbal, Reddy, Sheth, P{\~o}der, Bhatnagar, Panyam, Eiger, Zhang, Liu, Yacovone, Liechty, Kalra, Evci, Misra, Roseberry, Feinberg, Kolesnikov, Han, Kwon, Chen, Chow, Zhu, Wei, Egyed, Cotruta, Giang, Kirk, Rao, Black, Babar, Lo, Moreira, Martins, Sanseviero, Gonzalez, Gleicher, Warkentin, Mirrokni, Senter, Collins, Barral, Ghahramani, Hadsell, Matias, Sculley, Petrov, Fiedel, Shazeer, Vinyals, Dean, Hassabis, Kavukcuoglu, Farabet, Buchatskaya, Alayrac, Anil, Dmitry, Lepikhin, Borgeaud, Bachem, Joulin, Andreev, Hardin, Dadashi, and Hussenot}]{teamGemma3Technical2025}
+{Gemma Team}, Aishwarya Kamath, Johan Ferret, Shreya Pathak, Nino Vieillard, Ramona Merhej, Sarah Perrin, Tatiana Matejovicova, Alexandre Ram{\'e}, Morgane Rivi{\`e}re, Louis Rouillard, Thomas Mesnard, Geoffrey Cideron, Jean-bastien Grill, Sabela Ramos, Edouard Yvinec, Michelle Casbon, Etienne Pot, Ivo Penchev, and 197 others. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2503.19786} {Gemma 3 {{Technical Report}}}.
+\newblock \emph{Preprint}, arXiv:2503.19786.
+
+\bibitem[{{Gemma Team} et~al.(2024){Gemma Team}, Riviere, Pathak, Sessa, Hardin, Bhupatiraju, Hussenot, Mesnard, Shahriari, Ram{\'e}, Ferret, Liu, Tafti, Friesen, Casbon, Ramos, Kumar, Lan, Jerome, Tsitsulin, Vieillard, Stanczyk, Girgin, Momchev, Hoffman, Thakoor, Grill, Neyshabur, Bachem, Walton, Severyn, Parrish, Ahmad, Hutchison, Abdagic, Carl, Shen, Brock, Coenen, Laforge, Paterson, Bastian, Piot, Wu, Royal, Chen, Kumar, Perry, Welty, {Choquette-Choo}, Sinopalnikov, Weinberger, Vijaykumar, Rogozi{\'n}ska, Herbison, Bandy, Wang, Noland, Moreira, Senter, Eltyshev, Visin, Rasskin, Wei, Cameron, Martins, Hashemi, {Klimczak-Pluci{\'n}ska}, Batra, Dhand, Nardini, Mein, Zhou, Svensson, Stanway, Chan, Zhou, Carrasqueira, Iljazi, Becker, Fernandez, van Amersfoort, Gordon, Lipschultz, Newlan, Ji, Mohamed, Badola, Black, Millican, McDonell, Nguyen, Sodhia, Greene, Sjoesund, Usui, Sifre, Heuermann, Lago, McNealus, Soares, Kilpatrick, Dixon, Martins, Reid, Singh, Iverson, G{\"o}rner, Velloso, Wirth, Davidow, Miller,
+  Rahtz, Watson, Risdal, Kazemi, Moynihan, Zhang, Kahng, Park, Rahman, Khatwani, Dao, Bardoliwalla, Devanathan, Dumai, Chauhan, Wahltinez, Botarda, Barnes, Barham, Michel, Jin, Georgiev, Culliton, Kuppala, Comanescu, Merhej, Jana, Rokni, Agarwal, Mullins, Saadat, Carthy, Cogan, Perrin, Arnold, Krause, Dai, Garg, Sheth, Ronstrom, Chan, Jordan, Yu, Eccles, Hennigan, Kocisky, Doshi, Jain, Yadav, Meshram, Dharmadhikari, Barkley, Wei, Ye, Han, Kwon, Xu, Shen, Gong, Wei, Cotruta, Kirk, Rao, Giang, Peran, Warkentin, Collins, Barral, Ghahramani, Hadsell, Sculley, Banks, Dragan, Petrov, Vinyals, Dean, Hassabis, Kavukcuoglu, Farabet, Buchatskaya, Borgeaud, Fiedel, Joulin, Kenealy, Dadashi, and Andreev}]{teamGemma2Improving2024}
+{Gemma Team}, Morgane Riviere, Shreya Pathak, Pier~Giuseppe Sessa, Cassidy Hardin, Surya Bhupatiraju, L{\'e}onard Hussenot, Thomas Mesnard, Bobak Shahriari, Alexandre Ram{\'e}, Johan Ferret, Peter Liu, Pouya Tafti, Abe Friesen, Michelle Casbon, Sabela Ramos, Ravin Kumar, Charline~Le Lan, Sammy Jerome, and 179 others. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2408.00118} {Gemma 2: {{Improving Open Language Models}} at a {{Practical Size}}}.
+\newblock \emph{Preprint}, arXiv:2408.00118.
+
+\bibitem[{Goyal et~al.(2022{\natexlab{a}})Goyal, Gao, Chaudhary, Chen, Wenzek, Ju, Krishnan, Ranzato, Guzm{\'a}n, and Fan}]{flores101}
+Naman Goyal, Cynthia Gao, Vishrav Chaudhary, Peng-Jen Chen, Guillaume Wenzek, Da~Ju, Sanjana Krishnan, Marc{'}Aurelio Ranzato, Francisco Guzm{\'a}n, and Angela Fan. 2022{\natexlab{a}}.
+\newblock \href {https://doi.org/10.1162/tacl_a_00474} {The {F}lores-101 evaluation benchmark for low-resource and multilingual machine translation}.
+\newblock \emph{Transactions of the Association for Computational Linguistics}, 10:522--538.
+
+\bibitem[{Goyal et~al.(2022{\natexlab{b}})Goyal, Gao, Chaudhary, Chen, Wenzek, Ju, Krishnan, Ranzato, Guzm{\'a}n, and Fan}]{goyal-etal-2022-flores}
+Naman Goyal, Cynthia Gao, Vishrav Chaudhary, Peng-Jen Chen, Guillaume Wenzek, Da~Ju, Sanjana Krishnan, Marc{'}Aurelio Ranzato, Francisco Guzm{\'a}n, and Angela Fan. 2022{\natexlab{b}}.
+\newblock \href {https://doi.org/10.1162/tacl_a_00474} {The {F}lores-101 evaluation benchmark for low-resource and multilingual machine translation}.
+\newblock \emph{Transactions of the Association for Computational Linguistics}, 10:522--538.
+
+\bibitem[{Guerreiro et~al.(2024)Guerreiro, Rei, Stigt, Coheur, Colombo, and Martins}]{guerreiro-etal-2024-xcomet}
+Nuno~M. Guerreiro, Ricardo Rei, Daan~van Stigt, Luisa Coheur, Pierre Colombo, and Andr{\'e} F.~T. Martins. 2024.
+\newblock \href {https://doi.org/10.1162/tacl_a_00683} {xcomet: Transparent machine translation evaluation through fine-grained error detection}.
+\newblock \emph{Transactions of the Association for Computational Linguistics}, 12:979--995.
+
+\bibitem[{Guha et~al.(2025)Guha, Marten, Keh, Raoof, Smyrnis, Bansal, Nezhurina, Mercat, Vu, Sprague, Suvarna, Feuer, Chen, Khan, Frankel, Grover, Choi, Muennighoff, Su, Zhao, Yang, Pimpalgaonkar, Sharma, Ji, Deng, Pratt, Ramanujan, Saad{-}Falcon, Li, Dave, Albalak, Arora, Wulfe, Hegde, Durrett, Oh, Bansal, Gabriel, Grover, Chang, Shankar, Gokaslan, Merrill, Hashimoto, Choi, Jitsev, Heckel, Sathiamoorthy, Dimakis, and Schmidt}]{OpenThoughts}
+Etash~Kumar Guha, Ryan Marten, Sedrick Keh, Negin Raoof, Georgios Smyrnis, Hritik Bansal, Marianna Nezhurina, Jean Mercat, Trung Vu, Zayne Sprague, Ashima Suvarna, Benjamin Feuer, Liangyu Chen, Zaid Khan, Eric Frankel, Sachin Grover, Caroline Choi, Niklas Muennighoff, Shiye Su, and 31 others. 2025.
+\newblock \href {https://doi.org/10.48550/ARXIV.2506.04178} {Openthoughts: Data recipes for reasoning models}.
+\newblock \emph{CoRR}, abs/2506.04178.
+
+\bibitem[{Guo et~al.(2021)Guo, Rush, and Kim}]{guo-etal-2021-parameter}
+Demi Guo, Alexander Rush, and Yoon Kim. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.acl-long.378} {Parameter-efficient transfer learning with diff pruning}.
+\newblock In \emph{Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}, pages 4884--4896, Online. Association for Computational Linguistics.
+
+\bibitem[{Han et~al.(2024)Han, Gao, Liu, Zhang, and Zhang}]{hanParameterEfficientFineTuningLarge2024}
+Zeyu Han, Chao Gao, Jinyang Liu, Jeff Zhang, and Sai~Qian Zhang. 2024.
+\newblock Parameter-{{Efficient Fine-Tuning}} for {{Large Models}}: {{A Comprehensive Survey}}.
+\newblock \emph{Transactions on Machine Learning Research}.
+
+\bibitem[{He et~al.(2024)He, Luo, Bai, Hu, Thai, Shen, Hu, Han, Huang, Zhang, Liu, Qi, Liu, and Sun}]{he-etal-2024-olympiadbench}
+Chaoqun He, Renjie Luo, Yuzhuo Bai, Shengding Hu, Zhen Thai, Junhao Shen, Jinyi Hu, Xu~Han, Yujie Huang, Yuxiang Zhang, Jie Liu, Lei Qi, Zhiyuan Liu, and Maosong Sun. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.acl-long.211} {{O}lympiad{B}ench: A challenging benchmark for promoting {AGI} with olympiad-level bilingual multimodal scientific problems}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 3828--3850, Bangkok, Thailand. Association for Computational Linguistics.
+
+\bibitem[{He et~al.(2021)He, Zhou, Ma, {Berg-Kirkpatrick}, and Neubig}]{heUnifiedViewParameterEfficient2021}
+Junxian He, Chunting Zhou, Xuezhe Ma, Taylor {Berg-Kirkpatrick}, and Graham Neubig. 2021.
+\newblock Towards a {{Unified View}} of {{Parameter-Efficient Transfer Learning}}.
+\newblock In \emph{International {{Conference}} on {{Learning Representations}}}.
+
+\bibitem[{Houlsby et~al.(2019)Houlsby, Giurgiu, Jastrzebski, Morrone, Laroussilhe, Gesmundo, Attariyan, and Gelly}]{houlsbyParameterEfficientTransferLearning2019a}
+Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin~De Laroussilhe, Andrea Gesmundo, Mona Attariyan, and Sylvain Gelly. 2019.
+\newblock Parameter-{{Efficient Transfer Learning}} for {{NLP}}.
+\newblock In \emph{Proceedings of the 36th {{International Conference}} on {{Machine Learning}}}, pages 2790--2799. PMLR.
+
+\bibitem[{Hu et~al.(2021)Hu, Shen, Wallis, {Allen-Zhu}, Li, Wang, Wang, and Chen}]{huLoRALowRankAdaptation2021b}
+Edward~J. Hu, Yelong Shen, Phillip Wallis, Zeyuan {Allen-Zhu}, Yuanzhi Li, Shean Wang, Lu~Wang, and Weizhu Chen. 2021.
+\newblock {{LoRA}}: {{Low-Rank Adaptation}} of {{Large Language Models}}.
+\newblock In \emph{International {{Conference}} on {{Learning Representations}}}.
+
+\bibitem[{Hu et~al.(2023)Hu, Wang, Lan, Xu, Lim, Bing, Xu, Poria, and Lee}]{hu-etal-2023-llm}
+Zhiqiang Hu, Lei Wang, Yihuai Lan, Wanyu Xu, Ee-Peng Lim, Lidong Bing, Xing Xu, Soujanya Poria, and Roy Lee. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.emnlp-main.319} {{LLM}-adapters: An adapter family for parameter-efficient fine-tuning of large language models}.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, pages 5254--5276, Singapore. Association for Computational Linguistics.
+
+\bibitem[{Huang et~al.(2025)Huang, Zhu, Hu, He, Li, Huang, and Yuan}]{benchmax:2025}
+Xu~Huang, Wenhao Zhu, Hanxu Hu, Conghui He, Lei Li, Shujian Huang, and Fei Yuan. 2025.
+\newblock \href {https://doi.org/10.48550/ARXIV.2502.07346} {Benchmax: {A} comprehensive multilingual evaluation suite for large language models}.
+\newblock \emph{CoRR}, abs/2502.07346.
+
+\bibitem[{Huang et~al.(2024)Huang, Zhu, Cheng, Li, and Yuan}]{MindMerger}
+Zixian Huang, Wenhao Zhu, Gong Cheng, Lei Li, and Fei Yuan. 2024.
+\newblock \href {http://papers.nips.cc/paper\_files/paper/2024/hash/3bf80b34f731313b8292f4578e820c90-Abstract-Conference.html} {Mindmerger: Efficiently boosting {LLM} reasoning in non-english languages}.
+\newblock In \emph{Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024, NeurIPS 2024, Vancouver, BC, Canada, December 10 - 15, 2024}.
+
+\bibitem[{Hui et~al.(2024)Hui, Yang, Cui, Yang, Liu, Zhang, Liu, Zhang, Yu, Lu, Dang, Fan, Zhang, Yang, Men, Huang, Zheng, Miao, Quan, Feng, Ren, Ren, Zhou, and Lin}]{huiQwen25CoderTechnicalReport2024}
+Binyuan Hui, Jian Yang, Zeyu Cui, Jiaxi Yang, Dayiheng Liu, Lei Zhang, Tianyu Liu, Jiajun Zhang, Bowen Yu, Keming Lu, Kai Dang, Yang Fan, Yichang Zhang, An~Yang, Rui Men, Fei Huang, Bo~Zheng, Yibo Miao, Shanghaoran Quan, and 5 others. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2409.12186} {Qwen2.5-{{Coder Technical Report}}}.
+\newblock \emph{Preprint}, arXiv:2409.12186.
+
+\bibitem[{Jain et~al.(2024)Jain, Han, Gu, Li, Yan, Zhang, Wang, {Solar-Lezama}, Sen, and Stoica}]{jainLiveCodeBenchHolisticContamination2024a}
+Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, Sida Wang, Armando {Solar-Lezama}, Koushik Sen, and Ion Stoica. 2024.
+\newblock {{LiveCodeBench}}: {{Holistic}} and {{Contamination Free Evaluation}} of {{Large Language Models}} for {{Code}}.
+\newblock In \emph{The {{Thirteenth International Conference}} on {{Learning Representations}}}.
+
+\bibitem[{Kazemi et~al.(2025)Kazemi, Fatemi, Bansal, Palowitch, Anastasiou, Mehta, Jain, Aglietti, Jindal, Chen, Dikkala, Tyen, Liu, Shalit, Chiappa, Olszewska, Tay, Tran, Le, and Firat}]{kazemi-etal-2025-big}
+Mehran Kazemi, Bahare Fatemi, Hritik Bansal, John Palowitch, Chrysovalantis Anastasiou, Sanket~Vaibhav Mehta, Lalit~K Jain, Virginia Aglietti, Disha Jindal, Peter Chen, Nishanth Dikkala, Gladys Tyen, Xin Liu, Uri Shalit, Silvia Chiappa, Kate Olszewska, Yi~Tay, Vinh~Q. Tran, Quoc~V Le, and Orhan Firat. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-long.1285} {{BIG}-bench extra hard}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 26473--26501, Vienna, Austria. Association for Computational Linguistics.
+
+\bibitem[{{Kimi Team} et~al.(2025){Kimi Team}, Bai, Bao, Chen, Chen, Chen, Chen, Chen, Chen, Chen, Chen, Cui, Ding, Dong, Du, Du, Du, Du, Fan, Feng, Fu, Gao, Gao, Gao, Gao, Gu, Guan, Guo, Guo, Hu, Hao, He, He, He, Hong, Hu, Hu, Huang, Huang, Huang, Jiang, Jiang, Jin, Kang, Lai, Li, Li, Li, Li, Li, Li, Li, Li, Li, Lin, Lin, Lin, Liu, Liu, Liu, Liu, Liu, Liu, Liu, Liu, Liu, Liu, Liu, Liu, Liu, Liu, Liu, Lu, Lu, Ma, Ma, Ma, Mao, Mei, Men, Miao, Pan, Peng, Qin, Qu, Shang, Shi, Shi, Song, Su, Su, Sun, Sung, Tang, Tao, Teng, Wang, Wang, Wang, Wang, Wang, Wang, Wang, Wang, Wang, Wang, Wang, Wang, Wang, Wang, Wang, Wang, Wang, Wei, Wei, Wu, Wu, Wu, Xiao, Xie, Xiong, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Xu, Yan, Yan, Yang, Yang, Yang, Yang, Yang, Yao, Yao, Ye, Ye, Yin, Yu, Yuan, Yuan, Yuan, Zhan, Zhang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhang, Zhao, Zhao, Zheng, Zheng, Zhou, Zhou, Zhou, Zhu, Zhuang, and Zu}]{teamKimiK2Open2025}
+{Kimi Team}, Yifan Bai, Yiping Bao, Guanduo Chen, Jiahao Chen, Ningxin Chen, Ruijue Chen, Yanru Chen, Yuankun Chen, Yutian Chen, Zhuofu Chen, Jialei Cui, Hao Ding, Mengnan Dong, Angang Du, Chenzhuang Du, Dikang Du, Yulun Du, Yu~Fan, and 150 others. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2507.20534} {Kimi {{K2}}: {{Open Agentic Intelligence}}}.
+\newblock \emph{Preprint}, arXiv:2507.20534.
+
+\bibitem[{Li et~al.(2024{\natexlab{a}})Li, Ding, Fang, and Tao}]{li-etal-2024-revisiting}
+Hongyu Li, Liang Ding, Meng Fang, and Dacheng Tao. 2024{\natexlab{a}}.
+\newblock \href {https://doi.org/10.18653/v1/2024.findings-emnlp.249} {Revisiting catastrophic forgetting in large language model tuning}.
+\newblock In \emph{Findings of the Association for Computational Linguistics: EMNLP 2024}, pages 4297--4308, Miami, Florida, USA. Association for Computational Linguistics.
+
+\bibitem[{Li et~al.(2024{\natexlab{b}})Li, Zhou, Huang, Cheng, and Chen}]{li-etal-2024-eliciting}
+Jiahuan Li, Hao Zhou, Shujian Huang, Shanbo Cheng, and Jiajun Chen. 2024{\natexlab{b}}.
+\newblock \href {https://doi.org/10.1162/tacl_a_00655} {Eliciting the translation ability of large language models via multilingual finetuning with translation instructions}.
+\newblock \emph{Transactions of the Association for Computational Linguistics}, 12:576--592.
+
+\bibitem[{Li et~al.(2025)Li, Li, Li, and Zhou}]{liHowInstructionReasoning2025}
+Ming Li, Yanhong Li, Ziyue Li, and Tianyi Zhou. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2504.10766} {How {{Instruction}} and {{Reasoning Data}} shape {{Post-Training}}: {{Data Quality}} through the {{Lens}} of {{Layer-wise Gradients}}}.
+\newblock \emph{Preprint}, arXiv:2504.10766.
+
+\bibitem[{Li and Liang(2021)}]{liPrefixTuningOptimizingContinuous2021}
+Xiang~Lisa Li and Percy Liang. 2021.
+\newblock \href {https://doi.org/10.48550/arXiv.2101.00190} {Prefix-{{Tuning}}: {{Optimizing Continuous Prompts}} for {{Generation}}}.
+\newblock \emph{Preprint}, arXiv:2101.00190.
+
+\bibitem[{Liao et~al.(2023)Liao, Meng, and Monz}]{liao-etal-2023-parameter}
+Baohao Liao, Yan Meng, and Christof Monz. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.acl-long.233} {Parameter-efficient fine-tuning without introducing new latency}.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 4242--4260, Toronto, Canada. Association for Computational Linguistics.
+
+\bibitem[{Lightman et~al.(2023)Lightman, Kosaraju, Burda, Edwards, Baker, Lee, Leike, Schulman, Sutskever, and Cobbe}]{lightmanLetsVerifyStep2023}
+Hunter Lightman, Vineet Kosaraju, Yura Burda, Harri Edwards, Bowen Baker, Teddy Lee, Jan Leike, John Schulman, Ilya Sutskever, and Karl Cobbe. 2023.
+\newblock \href {https://doi.org/10.48550/arXiv.2305.20050} {Let's {{Verify Step}} by {{Step}}}.
+\newblock \emph{Preprint}, arXiv:2305.20050.
+
+\bibitem[{Lin et~al.(2022)Lin, Mihaylov, Artetxe, Wang, Chen, Simig, Ott, Goyal, Bhosale, Du, Pasunuru, Shleifer, Koura, Chaudhary, O{'}Horo, Wang, Zettlemoyer, Kozareva, Diab, Stoyanov, and Li}]{lin-etal-2022-shot}
+Xi~Victoria Lin, Todor Mihaylov, Mikel Artetxe, Tianlu Wang, Shuohui Chen, Daniel Simig, Myle Ott, Naman Goyal, Shruti Bhosale, Jingfei Du, Ramakanth Pasunuru, Sam Shleifer, Punit~Singh Koura, Vishrav Chaudhary, Brian O{'}Horo, Jeff Wang, Luke Zettlemoyer, Zornitsa Kozareva, Mona Diab, and 2 others. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.emnlp-main.616} {Few-shot learning with multilingual generative language models}.
+\newblock In \emph{Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing}, pages 9019--9052, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics.
+
+\bibitem[{Lin et~al.(2025)Lin, Lin, Lin, and Ji}]{lin2025boostingmultimodallargelanguage}
+Zhihang Lin, Mingbao Lin, Luxi Lin, and Rongrong Ji. 2025.
+\newblock \href {https://arxiv.org/abs/2405.05803} {Boosting multimodal large language models with visual tokens withdrawal for rapid inference}.
+\newblock \emph{Preprint}, arXiv:2405.05803.
+
+\bibitem[{Liu et~al.(2023)Liu, Xia, Wang, and Zhang}]{liuYourCodeGenerated2023}
+Jiawei Liu, Chunqiu~Steven Xia, Yuyao Wang, and Lingming Zhang. 2023.
+\newblock Is your code generated by {{ChatGPT}} really correct? rigorous evaluation of large language models for code generation.
+\newblock In \emph{Proceedings of the 37th {{International Conference}} on {{Neural Information Processing Systems}}}, {{NIPS}} '23, pages 21558--21572, Red Hook, NY, USA. Curran Associates Inc.
+
+\bibitem[{Liu et~al.(2025)Liu, Liu, Xiao, Wang, Liu, Gao, Zhang, Zhang, and Chen}]{liu-etal-2025-llms-capable}
+Junnan Liu, Hongwei Liu, Linchen Xiao, Ziyi Wang, Kuikun Liu, Songyang Gao, Wenwei Zhang, Songyang Zhang, and Kai Chen. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.findings-acl.905} {Are your {LLM}s capable of stable reasoning?}
+\newblock In \emph{Findings of the Association for Computational Linguistics: ACL 2025}, pages 17594--17632, Vienna, Austria. Association for Computational Linguistics.
+
+\bibitem[{Liu et~al.(2024)Liu, Wang, Yin, Molchanov, Wang, Cheng, and Chen}]{liuDoRAWeightDecomposedLowRank2024}
+Shih-Yang Liu, Chien-Yi Wang, Hongxu Yin, Pavlo Molchanov, Yu-Chiang~Frank Wang, Kwang-Ting Cheng, and Min-Hung Chen. 2024.
+\newblock {{DoRA}}: {{Weight-Decomposed Low-Rank Adaptation}}.
+\newblock In \emph{Proceedings of the 41st {{International Conference}} on {{Machine Learning}}}, pages 32100--32121. PMLR.
+
+\bibitem[{Liu et~al.(2022)Liu, Ji, Fu, Tam, Du, Yang, and Tang}]{liu-etal-2022-p}
+Xiao Liu, Kaixuan Ji, Yicheng Fu, Weng Tam, Zhengxiao Du, Zhilin Yang, and Jie Tang. 2022.
+\newblock \href {https://doi.org/10.18653/v1/2022.acl-short.8} {{P}-tuning: Prompt tuning can be comparable to fine-tuning across scales and tasks}.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)}, pages 61--68, Dublin, Ireland. Association for Computational Linguistics.
+
+\bibitem[{Lu et~al.(2024)Lu, Zhu, Li, Qiao, and Yuan}]{lu-etal-2024-llamax}
+Yinquan Lu, Wenhao Zhu, Lei Li, Yu~Qiao, and Fei Yuan. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.findings-emnlp.631} {{LL}a{MAX}: Scaling linguistic horizons of {LLM} by enhancing translation capabilities beyond 100 languages}.
+\newblock In \emph{Findings of the Association for Computational Linguistics: EMNLP 2024}, pages 10748--10772, Miami, Florida, USA. Association for Computational Linguistics.
+
+\bibitem[{Manku et~al.(2007)Manku, Jain, and Das~Sarma}]{manku2007detecting}
+Gurmeet~Singh Manku, Arvind Jain, and Anish Das~Sarma. 2007.
+\newblock \href {https://doi.org/10.1145/1242572.1242592} {Detecting near-duplicates for web crawling}.
+\newblock In \emph{Proceedings of the 16th International Conference on World Wide Web}, WWW '07, page 141–150, New York, NY, USA. Association for Computing Machinery.
+
+\bibitem[{Muennighoff et~al.(2023)Muennighoff, Wang, Sutawika, Roberts, Biderman, Le~Scao, Bari, Shen, Yong, Schoelkopf, Tang, Radev, Aji, Almubarak, Albanie, Alyafeai, Webson, Raff, and Raffel}]{muennighoff-etal-2023-crosslingual}
+Niklas Muennighoff, Thomas Wang, Lintang Sutawika, Adam Roberts, Stella Biderman, Teven Le~Scao, M~Saiful Bari, Sheng Shen, Zheng~Xin Yong, Hailey Schoelkopf, Xiangru Tang, Dragomir Radev, Alham~Fikri Aji, Khalid Almubarak, Samuel Albanie, Zaid Alyafeai, Albert Webson, Edward Raff, and Colin Raffel. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.acl-long.891} {Crosslingual generalization through multitask finetuning}.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 15991--16111, Toronto, Canada. Association for Computational Linguistics.
+
+\bibitem[{{NLLB Team} et~al.(2022){NLLB Team}, Costa-jussà, Cross, Çelebi, Elbayad, Heafield, Heffernan, Kalbassi, Lam, Licht, Maillard, Sun, Wang, Wenzek, Youngblood, Akula, Barrault, Gonzalez, Hansanti, Hoffman, Jarrett, Sadagopan, Rowe, Spruit, Tran, Andrews, Ayan, Bhosale, Edunov, Fan, Gao, Goswami, Guzmán, Koehn, Mourachko, Ropers, Saleem, Schwenk, and Wang}]{nllbteam2022languageleftbehindscaling}
+{NLLB Team}, Marta~R. Costa-jussà, James Cross, Onur Çelebi, Maha Elbayad, Kenneth Heafield, Kevin Heffernan, Elahe Kalbassi, Janice Lam, Daniel Licht, Jean Maillard, Anna Sun, Skyler Wang, Guillaume Wenzek, Al~Youngblood, Bapi Akula, Loic Barrault, Gabriel~Mejia Gonzalez, Prangthip Hansanti, and 20 others. 2022.
+\newblock \href {https://arxiv.org/abs/2207.04672} {No language left behind: Scaling human-centered machine translation}.
+\newblock \emph{Preprint}, arXiv:2207.04672.
+
+\bibitem[{OpenAI(2025)}]{IntroducingGPT52025}
+OpenAI. 2025.
+\newblock Introducing {{GPT-5}}.
+\newblock \url{https://openai.com/index/introducing-gpt-5/}.
+
+\bibitem[{Ouyang et~al.(2022)Ouyang, Wu, Jiang, Almeida, Wainwright, Mishkin, Zhang, Agarwal, Slama, Ray, Schulman, Hilton, Kelton, Miller, Simens, Askell, Welinder, Christiano, Leike, and Lowe}]{ouyangTrainingLanguageModelsFollow2022}
+Long Ouyang, Jeff Wu, Xu~Jiang, Diogo Almeida, Carroll~L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, Maddie Simens, Amanda Askell, Peter Welinder, Paul Christiano, Jan Leike, and Ryan Lowe. 2022.
+\newblock Training language models to follow instructions with human feedback.
+\newblock In \emph{Proceedings of the 36th International Conference on Neural Information Processing Systems}, NIPS '22, Red Hook, NY, USA. Curran Associates Inc.
+
+\bibitem[{Owodunni and Kumar(2025)}]{owodunni2025continually}
+Abraham~Toluwase Owodunni and Sachin Kumar. 2025.
+\newblock Continually adding new languages to multilingual language models.
+\newblock \emph{arXiv preprint arXiv:2509.11414}.
+
+\bibitem[{Pfeiffer et~al.(2021)Pfeiffer, Kamath, R{\"u}ckl{\'e}, Cho, and Gurevych}]{pfeiffer-etal-2021-adapterfusion}
+Jonas Pfeiffer, Aishwarya Kamath, Andreas R{\"u}ckl{\'e}, Kyunghyun Cho, and Iryna Gurevych. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.eacl-main.39} {{A}dapter{F}usion: Non-destructive task composition for transfer learning}.
+\newblock In \emph{Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume}, pages 487--503, Online. Association for Computational Linguistics.
+
+\bibitem[{Ponti et~al.(2020)Ponti, Glava{\v{s}}, Majewska, Liu, Vuli{\'c}, and Korhonen}]{ponti-etal-2020-xcopa}
+Edoardo~Maria Ponti, Goran Glava{\v{s}}, Olga Majewska, Qianchu Liu, Ivan Vuli{\'c}, and Anna Korhonen. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.emnlp-main.185} {{XCOPA}: A multilingual dataset for causal commonsense reasoning}.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)}, pages 2362--2376, Online. Association for Computational Linguistics.
+
+\bibitem[{Qwen et~al.(2025)Qwen, Yang, Yang, Zhang, Hui, Zheng, Yu, Li, Liu, Huang, Wei, Lin, Yang, Tu, Zhang, Yang, Yang, Zhou, Lin, Dang, Lu, Bao, Yang, Yu, Li, Xue, Zhang, Zhu, Men, Lin, Li, Tang, Xia, Ren, Ren, Fan, Su, Zhang, Wan, Liu, Cui, Zhang, and Qiu}]{qwenQwen25TechnicalReport2025}
+Qwen, An~Yang, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo~Zheng, Bowen Yu, Chengyuan Li, Dayiheng Liu, Fei Huang, Haoran Wei, Huan Lin, Jian Yang, Jianhong Tu, Jianwei Zhang, Jianxin Yang, Jiaxi Yang, Jingren Zhou, Junyang Lin, and 24 others. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2412.15115} {Qwen2.5 {{Technical Report}}}.
+\newblock \emph{Preprint}, arXiv:2412.15115.
+
+\bibitem[{Rei et~al.(2025)Rei, Guerreiro, Pombal, Alves, Teixeirinha, Farajian, and Martins}]{reiTowerBridgingGenerality2025}
+Ricardo Rei, Nuno~M. Guerreiro, Jos{\'e} Pombal, Jo{\~a}o Alves, Pedro Teixeirinha, Amin Farajian, and Andr{\'e} F.~T. Martins. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2506.17080} {Tower+: {{Bridging Generality}} and {{Translation Specialization}} in {{Multilingual LLMs}}}.
+\newblock \emph{Preprint}, arXiv:2506.17080.
+
+\bibitem[{Rein et~al.(2024)Rein, Hou, Stickland, Petty, Pang, Dirani, Michael, and Bowman}]{rein2024gpqa}
+David Rein, Betty~Li Hou, Asa~Cooper Stickland, Jackson Petty, Richard~Yuanzhe Pang, Julien Dirani, Julian Michael, and Samuel~R. Bowman. 2024.
+\newblock \href {https://openreview.net/forum?id=Ti67584b98} {{GPQA}: A graduate-level google-proof q\&a benchmark}.
+\newblock In \emph{First Conference on Language Modeling}.
+
+\bibitem[{Rozi{\`e}re et~al.(2024)Rozi{\`e}re, Gehring, Gloeckle, Sootla, Gat, Tan, Adi, Liu, Sauvestre, Remez, Rapin, Kozhevnikov, Evtimov, Bitton, Bhatt, Ferrer, Grattafiori, Xiong, D{\'e}fossez, Copet, Azhar, Touvron, Martin, Usunier, Scialom, and Synnaeve}]{roziereCodeLlamaOpen2024}
+Baptiste Rozi{\`e}re, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat, Xiaoqing~Ellen Tan, Yossi Adi, Jingyu Liu, Romain Sauvestre, Tal Remez, J{\'e}r{\'e}my Rapin, Artyom Kozhevnikov, Ivan Evtimov, Joanna Bitton, Manish Bhatt, Cristian~Canton Ferrer, Aaron Grattafiori, Wenhan Xiong, Alexandre D{\'e}fossez, and 7 others. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2308.12950} {Code {{Llama}}: {{Open Foundation Models}} for {{Code}}}.
+\newblock \emph{Preprint}, arXiv:2308.12950.
+
+\bibitem[{Schwenk et~al.(2021)Schwenk, Wenzek, Edunov, Grave, Joulin, and Fan}]{schwenk-etal-2021-ccmatrix}
+Holger Schwenk, Guillaume Wenzek, Sergey Edunov, Edouard Grave, Armand Joulin, and Angela Fan. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.acl-long.507} {{CCM}atrix: Mining billions of high-quality parallel sentences on the web}.
+\newblock In \emph{Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}, pages 6490--6500, Online. Association for Computational Linguistics.
+
+\bibitem[{Shi et~al.(2022)Shi, Suzgun, Freitag, Wang, Srivats, Vosoughi, Chung, Tay, Ruder, Zhou, Das, and Wei}]{shiLanguageModelsAre2022b}
+Freda Shi, Mirac Suzgun, Markus Freitag, Xuezhi Wang, Suraj Srivats, Soroush Vosoughi, Hyung~Won Chung, Yi~Tay, Sebastian Ruder, Denny Zhou, Dipanjan Das, and Jason Wei. 2022.
+\newblock Language models are multilingual chain-of-thought reasoners.
+\newblock In \emph{The {{Eleventh International Conference}} on {{Learning Representations}}}.
+
+\bibitem[{Skean et~al.(2024)Skean, Arefin, LeCun, and Shwartz{-}Ziv}]{exploring_intermediate_layers}
+Oscar Skean, Md~Rifat Arefin, Yann LeCun, and Ravid Shwartz{-}Ziv. 2024.
+\newblock \href {https://doi.org/10.48550/ARXIV.2412.09563} {Does representation matter? exploring intermediate layers in large language models}.
+\newblock \emph{CoRR}, abs/2412.09563.
+
+\bibitem[{Skean et~al.(2025)Skean, Arefin, Zhao, Patel, Naghiyev, LeCun, and Shwartz{-}Ziv}]{uncovering_middle_repre}
+Oscar Skean, Md~Rifat Arefin, Dan Zhao, Niket Patel, Jalal Naghiyev, Yann LeCun, and Ravid Shwartz{-}Ziv. 2025.
+\newblock \href {https://doi.org/10.48550/ARXIV.2502.02013} {Layer by layer: Uncovering hidden representations in language models}.
+\newblock \emph{CoRR}, abs/2502.02013.
+
+\bibitem[{Sun et~al.(2025)Sun, Min, Chen, Zhao, Fang, Liu, Wang, and Wen}]{sunChallengingBoundariesReasoning2025}
+Haoxiang Sun, Yingqian Min, Zhipeng Chen, Wayne~Xin Zhao, Lei Fang, Zheng Liu, Zhongyuan Wang, and Ji-Rong Wen. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2503.21380} {Challenging the {{Boundaries}} of {{Reasoning}}: {{An Olympiad-Level Math Benchmark}} for {{Large Language Models}}}.
+\newblock \emph{Preprint}, arXiv:2503.21380.
+
+\bibitem[{Sun et~al.(2024)Sun, Chen, Huang, Xie, Zhu, Zhang, Li, Yang, Han, Shu, Bu, Chen, Huang, Lian, Yang, Yan, Zeng, Ren, Yu, Wu, Mao, Xia, Yang, Zheng, Wu, Jiao, Xue, Zhang, Wu, Liu, Wu, Xu, Chen, Chen, Feng, Hong, Zheng, Xu, Li, Kuang, Hu, Chen, Deng, Li, Liu, Zhang, Hu, Zhao, Wu, Ding, Wang, Liu, Wang, Fei, Yu, Zhao, Cao, Wang, Xiang, Huang, Xiong, Hu, Hou, Jiang, Ma, Wu, Deng, Shen, Wang, Liu, Liu, Chen, Dong, Jia, Chen, Liu, Yuan, Xu, Yan, Cao, Hu, Feng, Du, Yu, Tao, Zhang, Zhu, Xu, Li, Zha, Ouyang, Xia, Li, He, Chen, Song, Chen, Jiang, Zhao, Wang, Gong, Gan, Hu, Kang, Yang, Liu, Wang, and Jiang}]{sunHunyuanLargeOpenSourceMoE2024}
+Xingwu Sun, Yanfeng Chen, Yiqing Huang, Ruobing Xie, Jiaqi Zhu, Kai Zhang, Shuaipeng Li, Zhen Yang, Jonny Han, Xiaobo Shu, Jiahao Bu, Zhongzhi Chen, Xuemeng Huang, Fengzong Lian, Saiyong Yang, Jianfeng Yan, Yuyuan Zeng, Xiaoqin Ren, Chao Yu, and 89 others. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2411.02265} {Hunyuan-{{Large}}: {{An Open-Source MoE Model}} with 52 {{Billion Activated Parameters}} by {{Tencent}}}.
+\newblock \emph{Preprint}, arXiv:2411.02265.
+
+\bibitem[{Sung et~al.(2021)Sung, Nair, and Raffel}]{sungTrainingNeuralNetworks2021}
+Yi-Lin Sung, Varun Nair, and Colin Raffel. 2021.
+\newblock Training {{Neural Networks}} with {{Fixed Sparse Masks}}.
+\newblock In \emph{Advances in {{Neural Information Processing Systems}}}.
+
+\bibitem[{Tiedemann(2012)}]{tiedmann2012parallel}
+Jörg Tiedemann. 2012.
+\newblock Parallel data, tools and interfaces in {OPUS}.
+\newblock In \emph{Proceedings of the Eight International Conference on Language Resources and Evaluation (LREC'12)}, Istanbul, Turkey. European Language Resources Association (ELRA).
+
+\bibitem[{Touvron et~al.(2023)Touvron, Martin, Stone, Albert, Almahairi, Babaei, Bashlykov, Batra, Bhargava, Bhosale, Bikel, Blecher, Ferrer, Chen, Cucurull, Esiobu, Fernandes, Fu, Fu, Fuller, Gao, Goswami, Goyal, Hartshorn, Hosseini, Hou, Inan, Kardas, Kerkez, Khabsa, Kloumann, Korenev, Koura, Lachaux, Lavril, Lee, Liskovich, Lu, Mao, Martinet, Mihaylov, Mishra, Molybog, Nie, Poulton, Reizenstein, Rungta, Saladi, Schelten, Silva, Smith, Subramanian, Tan, Tang, Taylor, Williams, Kuan, Xu, Yan, Zarov, Zhang, Fan, Kambadur, Narang, Rodriguez, Stojnic, Edunov, and Scialom}]{touvron2023llama2openfoundation}
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, Dan Bikel, Lukas Blecher, Cristian~Canton Ferrer, Moya Chen, Guillem Cucurull, David Esiobu, Jude Fernandes, Jeremy Fu, Wenyin Fu, and 49 others. 2023.
+\newblock \href {https://arxiv.org/abs/2307.09288} {Llama 2: Open foundation and fine-tuned chat models}.
+\newblock \emph{Preprint}, arXiv:2307.09288.
+
+\bibitem[{{\"U}st{\"u}n et~al.(2024){\"U}st{\"u}n, Aryabumi, Yong, Ko, D'souza, Onilude, Bhandari, Singh, Ooi, Kayid et~al.}]{ustun2024aya}
+Ahmet {\"U}st{\"u}n, Viraat Aryabumi, Zheng-Xin Yong, Wei-Yin Ko, Daniel D'souza, Gbemileke Onilude, Neel Bhandari, Shivalika Singh, Hui-Lee Ooi, Amr Kayid, and 1 others. 2024.
+\newblock Aya model: An instruction finetuned open-access multilingual language model.
+\newblock \emph{arXiv preprint arXiv:2402.07827}.
+
+\bibitem[{Yang et~al.(2025)Yang, Li, Yang, Zhang, Hui, Zheng, Yu, Gao, Huang, Lv, Zheng, Liu, Zhou, Huang, Hu, Ge, Wei, Lin, Tang, Yang, Tu, Zhang, Yang, Yang, Zhou, Zhou, Lin, Dang, Bao, Yang, Yu, Deng, Li, Xue, Li, Zhang, Wang, Zhu, Men, Gao, Liu, Luo, Li, Tang, Yin, Ren, Wang, Zhang, Ren, Fan, Su, Zhang, Zhang, Wan, Liu, Wang, Cui, Zhang, Zhou, and Qiu}]{yangQwen3TechnicalReport2025a}
+An~Yang, Anfeng Li, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo~Zheng, Bowen Yu, Chang Gao, Chengen Huang, Chenxu Lv, Chujie Zheng, Dayiheng Liu, Fan Zhou, Fei Huang, Feng Hu, Hao Ge, Haoran Wei, Huan Lin, Jialong Tang, and 41 others. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2505.09388} {Qwen3 {{Technical Report}}}.
+\newblock \emph{Preprint}, arXiv:2505.09388.
+
+\bibitem[{Yang et~al.(2024)Yang, Zhang, Hui, Gao, Yu, Li, Liu, Tu, Zhou, Lin, Lu, Xue, Lin, Liu, Ren, and Zhang}]{yangQwen25MathTechnicalReport2024}
+An~Yang, Beichen Zhang, Binyuan Hui, Bofei Gao, Bowen Yu, Chengpeng Li, Dayiheng Liu, Jianhong Tu, Jingren Zhou, Junyang Lin, Keming Lu, Mingfeng Xue, Runji Lin, Tianyu Liu, Xingzhang Ren, and Zhenru Zhang. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2409.12122} {Qwen2.5-{{Math Technical Report}}: {{Toward Mathematical Expert Model}} via {{Self-Improvement}}}.
+\newblock \emph{Preprint}, arXiv:2409.12122.
+
+\bibitem[{Zhang et~al.(2020)Zhang, Williams, Titov, and Sennrich}]{zhang-etal-2020-improving}
+Biao Zhang, Philip Williams, Ivan Titov, and Rico Sennrich. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.acl-main.148} {Improving massively multilingual neural machine translation and zero-shot translation}.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, pages 1628--1639, Online. Association for Computational Linguistics.
+
+\bibitem[{Zheng et~al.(2025)Zheng, Li, Qu, Song, Du, Sun, and Wang}]{zhengHunyuanMTTechnicalReport2025}
+Mao Zheng, Zheng Li, Bingxin Qu, Mingyang Song, Yang Du, Mingrui Sun, and Di~Wang. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2509.05209} {Hunyuan-{{MT Technical Report}}}.
+\newblock \emph{Preprint}, arXiv:2509.05209.
+
+\bibitem[{Zhu et~al.(2024)Zhu, Liu, Dong, Xu, Huang, Kong, Chen, and Li}]{zhu-etal-2024-multilingual}
+Wenhao Zhu, Hongyi Liu, Qingxiu Dong, Jingjing Xu, Shujian Huang, Lingpeng Kong, Jiajun Chen, and Lei Li. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.findings-naacl.176} {Multilingual machine translation with large language models: Empirical results and analysis}.
+\newblock In \emph{Findings of the Association for Computational Linguistics: NAACL 2024}, pages 2765--2781, Mexico City, Mexico. Association for Computational Linguistics.
+
+\bibitem[{Zhuo et~al.(2024)Zhuo, Chien, Chim, Hu, Yu, Widyasari, Yusuf, Zhan, He, Paul, Brunner, Gong, Hoang, Zebaze, Hong, Li, Kaddour, Xu, Zhang, Yadav, Jain, Gu, Cheng, Liu, Liu, Wang, Hui, Muennighoff, Lo, Fried, Du, de~Vries, and Werra}]{zhuoBigCodeBenchBenchmarkingCode2024}
+Terry~Yue Zhuo, Vu~Minh Chien, Jenny Chim, Han Hu, Wenhao Yu, Ratnadira Widyasari, Imam Nur~Bani Yusuf, Haolan Zhan, Junda He, Indraneil Paul, Simon Brunner, Chen Gong, James Hoang, Armel~Randy Zebaze, Xiaoheng Hong, Wen-Ding Li, Jean Kaddour, Ming Xu, Zhihan Zhang, and 14 others. 2024.
+\newblock {{BigCodeBench}}: {{Benchmarking Code Generation}} with {{Diverse Function Calls}} and {{Complex Instructions}}.
+\newblock In \emph{The {{Thirteenth International Conference}} on {{Learning Representations}}}.
+
+\end{thebibliography}

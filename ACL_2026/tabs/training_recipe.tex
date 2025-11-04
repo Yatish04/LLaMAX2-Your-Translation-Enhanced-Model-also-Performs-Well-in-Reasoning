@@ -1,0 +1,33 @@
+\begin{algorithm}[t]
+\footnotesize
+\KwIn{Epoch number $L$, learning rate $\eta$. Training data for Stage 1 and Stage 2 is both $\mathcal{D}_{\mathrm{multi}}$, where $\mathcal{D}_{\mathrm{multi}} = \mathcal{D}_{\mathrm{en}\rightarrow \cdot} \bigcup \mathcal{D}_{\cdot \rightarrow \mathrm{en}}$. 
+Given an instruct model, which pretrained parameter $\theta_0=\{ \theta_\mathrm{ie}, \theta_\mathrm{bottom\_k}, \cdots, \theta_\mathrm{top\_m}, \theta_\mathrm{oe}\}$, $\theta_\mathrm{ie}$ and $\theta_\mathrm{oe}$ are the embedding parameters, and $\theta_\mathrm{bottom\_k}, \cdots, \theta_\mathrm{top\_m}$ are parameters of transformer layers.The parameters of Stage 1 are initialized as $\theta_1=\theta_0$ with only $\theta_\mathrm{bottom\_k}$ being trainable, where $\theta_\mathrm{bottom\_k}=\{\theta_\mathrm{layer\_1}, \cdots,\theta_\mathrm{layer\_k} \}$. Note, the parameters used for Stage 2 are initialized as $\theta_2=\theta_1$, with only $\theta_\mathrm{top\_m}$ being trainable, where $\theta_\mathrm{top\_m} = \{ \theta_\mathrm{layer\_{n-m}}, \cdots, \theta_\mathrm{layer\_n} \}$. } 
+
+% \color{mycolor}{Stage 1.} \\
+
+\tcp{\color{mycolor} Stage 1, only $\theta_\mathrm{bottom\_k}$ being trainable.}
+
+\For {epoch $l = 1$ to $L$}   
+{
+	Shuffle $\mathcal{D}_{\mathrm{multi}}$ to obtain a new training sequence. \\
+	\For {each batch $\mathcal{D}_1 \in \mathcal{D}_{\mathrm{multi}} $} 
+	{
+        $l_1 = \sum_{\mathbf{x,y}\sim\mathcal{D}_1} - \mathrm{log}P_{\theta_1}(\mathbf{y}|\mathbf{x}) $\\
+        $\theta_\mathrm{bottom\_k} \leftarrow \theta_\mathrm{bottom\_k} - \eta \bigtriangledown_{\theta_\mathrm{bottom\_k}}{l_1}  $
+        
+	}
+}
+\tcp{\color{mycolor} Stage 2, only $\theta_\mathrm{top\_m}$ being trainable.}
+ \For {epoch $l = 1$ to $L$}   
+{
+	Shuffle $\mathcal{D}_{\mathrm{multi}}$ to obtain a new training sequence. \\
+	\For {each batch $\mathcal{D}_2 \in \mathcal{D}_{\mathrm{multi}} $} 
+	{ 
+        $l_2 = \sum_{\mathbf{x,y}\sim\mathcal{D}_2} - \mathrm{log}P_{\theta_2}(\mathbf{y}|\mathbf{x})$  \\
+        $\theta_\mathrm{top\_m} \leftarrow \theta_\mathrm{top\_m} - \eta \bigtriangledown_{\theta_\mathrm{top\_m}}{l_2} $
+        
+	}
+}
+\caption{\small \modelseries Two-Stage Training.}
+\label{alg:training_recipe}
+\end{algorithm}

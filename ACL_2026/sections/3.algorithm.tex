@@ -1,0 +1,41 @@
+\section{\modelseries Training Recipe}
+
+\input{ACL_2026/images/overview}
+
+In this section, we outline our new translation enhancement recipe~(Figure \ref{fig:overview}). We train an instruct model with instruction-formatted parallel data~($\S$~\ref{sec:data_construction}) using layer-selective tuning~($\S$~\ref{sec:layer_selective_tuning}).
+
+\subsection{Training Data Construction}
+\label{sec:data_construction}
+The parallel data used in our training process comes from two public accessible datasets, NLLB \cite{nllbteam2022languageleftbehindscaling} and OPUS-100 \cite{tiedmann2012parallel}, with 6 processing steps:
+\begin{enumerate}
+[nosep,itemsep=2pt,leftmargin=0.3cm]
+    \item Transform the data into a unified JSONL format, containing \texttt{src, trg, src\_line, tgt\_line};
+    \item Clean invalid characters and punctuations to avoid encoding and tokenization issues;
+    \item Deduplicate the data in each language pair via SimHash \cite{manku2007detecting} based on language-specific tokenization and source-target length match. We first split the source and target texts into words or characters based on their languages, and then filter out the samples where either the source or the target text is too short (fewer than 2 tokens) or length mismatch (one's length is less than 0.3 of the other's). Then, we concatenate the source and target of each sample, and calculate the SimHash conflicts between samples, deleting those with more than 2 conflicts;
+    \item Filter out the samples with incorrect language labels identified by fasttext \footnote{\url{https://huggingface.co/facebook/fasttext-language-identification}};
+    \item Evaluate the translation quality of each sample with the conditional loss of a small translation model (NLLB-200-Distilled-600M \footnote{\url{https://huggingface.co/facebook/nllb-200-distilled-600M}}), ruling out the samples with higher loss than 90\% of the FLORES-101 development samples.
+    \item  Convert the data into instruction format by adding clear and diverse task instructions.
+\end{enumerate}
+
+
+\input{ACL_2026/images/single_lyr_tuning}
+
+\subsection{Layer-Selective Tuning}
+\label{sec:layer_selective_tuning}
+
+\paragraph{Behavioral importance of the middle layers.} To investigate how training different layers affects model behavior to guide the choice of target layers, we conduct experiments where each layer is independently trained. The results, illustrated in Figure~\ref{fig:single_lyr_tuning}, highlight distinct behaviors across layers, revealing that training on intermediate layers, especially layer 20, results in a significant decline in translation performance. This finding highlights the significance of middle layers~\cite{uncovering_middle_repre,exploring_intermediate_layers}, which have been demonstrated to capture more general and transferable representations.
+
+
+\paragraph{Gradient-based sensitivity results guide layer selection.} In addition to single-layer training, we analyze the nuclear norm, which measures the magnitude of the gradient~\cite{liHowInstructionReasoning2025}, reflecting the sensitivity of model parameters to changes in input, thus revealing the stability and robustness of layers during training. 
+% The nuclear norm is particularly useful in this context as it captures the complexity of the parameter interactions, allowing us to identify which layers are most affected by perturbations and, consequently, guiding our understanding of their contributions to translation performance.
+Figure \ref{fig:nuclear_norm} illustrates the layer-wise nuclear norm~(the parameter sensitivity of $Q$, $K$, and $V$ matrices) for ``en-zh'' data in the FLORES-101 development dataset, with similar trends observed in other translation directions.
+
+
+\paragraph{Internal encoder-decoder hypothesis inspires a two-stage training approach.} In decoder-only models, bottom layers~(close to the input embedding layer) primarily focus on encoding information, while top layers~(far away from the input embedding layer) emphasize the decoding process. By leveraging this insight, as discussed in previous studies~\cite{chen2024image,lin2025boostingmultimodallargelanguage}, we enhance training strategies to optimize the performance of decoder-only models. 
+
+\input{ACL_2026/images/nuclear_norm}
+
+\subsection{Training Algorithm}
+\input{ACL_2026/tabs/training_recipe}
+
+As shown in Algorithm~\ref{alg:training_recipe}, we fine-tune an instruct model using the same instruction-formatted parallel data in two stages. In Stage 1, we focus on tuning the bottom $k$ layers of the model. Then, in Stage 2, we focus on adjusting the top $m$ layers of the model that have already undergone training in the first stage. Throughout the tuning process, the parameters of the middle layers are frozen.

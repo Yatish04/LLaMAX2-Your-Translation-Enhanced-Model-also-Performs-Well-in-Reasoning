@@ -1,0 +1,118 @@
+
+\input{ACL_2026/images/lora_fft_compare}
+
+\section{Experiments}
+
+\subsection{Setting}
+
+% \input{ACL_2026/tabs/translation_flores_qwen3}
+
+
+\input{ACL_2026/tabs/translation_flores_multilingual}
+
+
+
+\paragraph{Models and Baselines} 
+We compare \modelseries with a range of baselines across four categories:
+(1) General instruction models, including the Gemma series~\cite{teamGemma2Improving2024,teamGemma3Technical2025}, Llama3 series~\cite{touvron2023llama2openfoundation, dubeyLlama3Herd2024}, and Qwen series~\cite{qwenQwen25TechnicalReport2025,yangQwen3TechnicalReport2025a};
+(2) Different tuning strategies on instruction models using our parallel data, including full fine-tuning and LoRA tuning.
+(3) Multilingual-enhanced models, including the Tower series~\cite{alvesTowerOpenMultilingual2024}, Aya series~\cite{dangAyaExpanseCombining2024, ustun2024aya}, Sailor2~\cite{douSailor2SailingSouthEast2025}, and LLaMAX3-8B-Alpaca~\cite{lu-etal-2024-llamax};
+(4) Domain-specialized LLMs, such as the Qwen2.5-Math~\cite{yangQwen25MathTechnicalReport2024}, and the Qwen2.5-Coder~\cite{huiQwen25CoderTechnicalReport2024}.
+
+
+% We compare \modelseries with baselines regarding general, math, code, and multilingual capabilities across four categories: (1) General instruct models, including gemma-series, Llama3-8B, Llama3.1-8B, Qwen2.5-series, and Qwen3-series models; (2) Domain-Specialized LLMs, such as CodeLlama, internlm-math, deepseek, Qwen2.5-Math series, and Qwen2.5-Coder series models; (3) Multilingual-Enhanced models, including Tower series, Aya series, Salior2, and LLaMAX3; 
+% (4) Different tuning strategies on instruct model using our parallel data, including full and LoRA tuning. 
+
+% (4) Super-Large Models, like Qwen3-235B, Deepseek-V3, Deepseek-R1 and K2; 
+% The comprehensive comparison shows the multilingualized models still maintain high-level performance across diverse capabilities.
+
+\paragraph{Evaluation datasets and Metrics} 
+We evaluate \modelseries on FLORES-101~\cite{flores101} using the BenchMAX~\cite{benchmax:2025} evaluation suitcase~\footnote{\url{https://huggingface.co/datasets/LLaMAX/BenchMAX_General_Translation}}. For translation evaluation, we adopt two metrics: spBLEU~\cite{flores101} and xComet~\cite{guerreiro-etal-2024-xcomet}. The spBLEU metric measures translations based on text surface, while xComet focuses on the semantic similarity between the source sentence and the translation. By using both metrics, we avoid inflated xComet scores that can arise from directly copying the source sentence, while also accounting for different valid translation possibilities.
+
+% XNLI, MGSM, xIFEval,  XStoryCloze, XCOPA, XGPQA, XWinograd
+\input{ACL_2026/images/complex_problem}
+\input{ACL_2026/tabs/multilingual_tasks}
+
+For our multilingual tasks, we evaluate seven benchmarks—XNLI~\cite{conneau-etal-2018-xnli}, MGSM~\cite{shiLanguageModelsAre2022b,benchmax:2025}, xIFEval~\cite{benchmax:2025}, XStoryCloze~\cite{lin-etal-2022-shot}, XCOPA~\cite{ponti-etal-2020-xcopa}, XGPQA~\cite{benchmax:2025,rein2024gpqa}, and XWinograd~\cite{muennighoff-etal-2023-crosslingual}—using the BenchMax suite and the lm-evaluation-harness~\cite{eval-harness} suite to assess the accuracy metrics for each task.
+
+% MathQA, BBEH, GPQA, SuperGPQA, AIME 2024, 2025, OlympiadBench, LiveMathBench, OlymMath, Math, MBPP, LiveCodeBench V5, V6, BigCodeBench Hard, HumanEval, HumanEval+
+For popular reasoning tasks, we evaluate 15 benchmarks, including BBEH~\cite{kazemi-etal-2025-big}, AIME2024~\cite{ArtProblemSolving}, AIME2025~\cite{ArtProblemSolving}, OlympiadBench~\cite{he-etal-2024-olympiadbench}, LiveMathBench~\cite{liu-etal-2025-llms-capable}, OlymMath~\cite{sunChallengingBoundariesReasoning2025}, Math~\cite{austinProgramSynthesisLarge2021},  LiveCodeBench-V5, LiveCodeBench-V6~\cite{jainLiveCodeBenchHolisticContamination2024a}, BigCodeBench-Hard~\cite{zhuoBigCodeBenchBenchmarkingCode2024},
+and HumanEval~\cite{chenEvaluatingLargeLanguage2021}.
+% and HumanEval+~\cite{liuYourCodeGenerated2023}
+We utilize the OpenCompass~\cite{2023opencompass} suite, employing accuracy as the metric for all tasks except for LiveCodeBench-V5, LiveCodeBench-V6, BigCodeBench-Hard, 
+% HumanEval, 
+and HumanEval, which use pass@1 as the metric.
+
+
+
+\subsection{Experimental Results}
+\subsubsection{Effectiveness of \method}
+
+In Figure~\ref{fig:lora_fft_compare}, we compared the performance of \modelseries with its start model, Qwen3, as well as two alternative fine-tuning strategies: full fine-tuning (FFT) and LoRA.
+Since Qwen3-8B and Qwen3-14B are instruction-tuned models, enhancing their capabilities with limited data is non-trivial, and FFT on these models often causes catastrophic forgetting. For example, on Qwen3-8B, FFT leads to degraded translation performance across most languages.
+In comparison, LoRA helps mitigate catastrophic forgetting, but even after LoRA training, the model’s translation performance in most languages still falls short of its start model, Qwen3-8B or Qwen3-14B.
+In contrast, \method effectively improves the translation performance of Qwen3. Across 28 experimental settings, \modelseries achieved higher xComet scores than Qwen3 in 27 cases. The improvement is especially pronounced for weaker languages like \texttt{sw}.
+Complete results are shown in Table~\ref{tab:translation_flores_qwen3}.
+
+% In Figure~\ref{fig:lora_fft_compare}, we compared the performance of \modelseries with its start model, Qwen3 and other two variant of fine-tuning methods full fine-tuning (FFT) and LoRA.
+% Considering that Qwen3-8B and Qwen3-14B were instruction models, improving their capabilities through fine-tuning on limited data was non-trivial.  Using the same training data, FFT and LoRA led to decreased xComet scores in 25 and 26 settings, respectively. These results demonstrated that \method enabled effective instruction fine-tuning, allowing the model to improve its targeted abilities under limited-data conditions.
+
+% Across 28 experimental settings covering different model sizes and translation directions, \modelseries achieved higher xComet scores than Qwen3 in 27 cases.
+
+
+\subsubsection{Performance Comparison}
+
+We evaluate \modelseries against a range of advanced LLMs on translation, multilingual, and general tasks and finds that \modelseries exhibits the following strengths:
+
+\paragraph{Superior Translation Capability} As shown in Table~\ref{tab:translation_flores_multilingual}, \modelseries demonstrates leading translation performance among current top-performing multilingual LLMs.
+In both the many-to-one and one-to-many settings, \modelseries achieves the highest xComet scores in 6 of the 7 reported languages.
+Notably, \modelseries outperforms even larger models. Despite using less than half the parameters, \modellarge achieves higher xComet scores than Aya-Expanse-32B across all evaluated languages, and \modelsmall, with only one quarter of the parameters, surpasses Aya-Expanse-32B in 12 of the 14 translation directions.
+Moreover, the advantage of \modelseries is particularly pronounced for low-resource languages, where \modellarge outperforms the second-best model, LLaMAX3-8B-Alpaca, by 4.51, 8.04, and 10.67 xComet scores on $\text{x} \rightarrow \text{sw}$, $\text{x} \rightarrow \text{th}$, and $\text{x} \rightarrow \text{bn}$, respectively.
+Complete results are shown in Table~\ref{tab:translation_flores}.
+
+% \paragraph{Effective Training Method}
+
+
+
+\paragraph{Improved Multilingual Capability} In Table~\ref{tab:multilingual_tasks}, we evaluate \modelseries on 7 multilingual datasets. Despite being trained solely on general parallel corpora without any task-specific multilingual data, \modelseries demonstrates improved multilingual capabilities compared to its start models. Specifically, \modelsmall outperforms Qwen3-8B on 6 out of 7 datasets, while \modellarge outperforms Qwen3-14B on 5 out of 7 datasets.
+Furthermore, compared to other multilingual LLMs, \modelseries consistently ranks among the best across all evaluated datasets. Its performance is particularly strong on xIFEval and XGPQA, where it exceeds the scores of existing top-performing multilingual models.
+Complete results are shown in Table~\ref{tab:general_task}.
+
+
+
+\paragraph{Sustained General Reasoning Capability} Training instruction-tuned models on a single task often leads to forgetting of general capabilities. However, as shown in Figure~\ref{fig:general_tasks}, \modelseries maintains consistently stable general capabilities. Across reasoning tasks, including mathematics and code, \modelseries consistently performs on par with its start model. Notably, compared to the current leading multilingual model Tower-Plus-9B, \modelseries demonstrates a clear advantage.
+
+
+% On HumanEval+ and MathQA, \modelseries achieved comparable scores to its start model, Qwen3. This preservation of general capabilities is particularly notable among multilingual LLMs. For instance, on HumanEval+, \modelsmall significantly outperformed other multilingual LLMs by at least 35.98\%.
+
+
+\input{ACL_2026/tabs/layer_combination_analysis}
+
+
+\subsubsection{Core Findings}
+
+We investigate three key factors underlying the strong performance of \modelseries.
+
+\paragraph{The Start Model}
+\modelseries aligns into the multilingual space starting from an instruct model rather than a base model, thereby leveraging the stronger capabilities of the Instruct variant. Traditional multilingual models usually rely on base models for continued pre-training, assuming better transferability, but this overlooks the substantial abilities already embedded in Instruct models, which are trained on extensive high-quality instruction-tuning corpora, much of it non-public. 
+For instance, Sailor2-8B-Chat, built on Qwen2.5-7B-Base, shows weaker translation performance than the Instruct version Qwen2.5-7B and even lags behind the domain-specialized LLM Qwen2.5-Coder-7B, as can be observed in Table~\ref{tab:translation_flores}. In contrast, by employing \method, \modelseries achieves a smooth training process from instruct models, inheriting their strengths while further extending multilingual capability.
+
+\input{ACL_2026/tabs/one_stage_vs_two_stage}
+
+
+\paragraph{The Data Requirements}
+By starting from Instruct models, \modelseries demonstrates strong performance across diverse tasks and aligns multilingual capability using only a small amount of data, without relying on massive data for capability enhancement. Specifically, whereas Hunyuan-MT uses 1.3T tokens, Sailor2 uses 500B tokens, and Tower Plus uses 32B tokens, \modelseries attains the most competitive multilingual and general-task performance with only 0.8B tokens. In particular, although \modelseries is trained solely in general parallel corpora, it achieves highly competitive performance on specialized tasks such as code and math (Figure~\ref{fig:general_tasks}). However, for knowledge-intensive multilingual tasks like XGPQA (Table~\ref{tab:multilingual_tasks}), \modelseries does not surpass its start model, indicating that task-specific domain knowledge is essential for such tasks and cannot be fully compensated by general parallel corpora alone.
+
+\paragraph{The Training Process} \modelseries is trained using an efficient training procedure. By relying solely on the SFT stage, it achieves the best multilingual capability among models of comparable scale, without requiring the more demanding CPT or RL phases. This demonstrates the effectiveness of our \method approach and indicates the potential for further improvements through the incorporation of denser training stages.
+
+
+% \subsubsection{The advantage of train from instruct model}
+
+% \subsubsection{The advantage of train on general parallel data}
+% 1。 数据量  2. 数据类型：仅用paralle data  3. 数据类别：不用code math这些通用的，只用了通用的
+
+% \subsubsection{The advantage of train from instruct model}
+% 不要PPO等，只用SFT就效果好了
+
+% \input{ACL_2026/tabs/understanding_results}
+

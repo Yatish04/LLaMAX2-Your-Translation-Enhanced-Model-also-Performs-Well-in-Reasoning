@@ -1,0 +1,104 @@
+\section{Appendix}
+\input{ACL_2026/tabs/translation_flores_qwen3}
+\input{ACL_2026/tabs/translation_flores}
+\input{ACL_2026/tabs/understanding_results}
+
+\subsection{Models}
+Information of the models evaluated in our study are listed in Table \ref{tab:appendix-models}.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table*}[ht]
+\centering
+\scriptsize
+\begin{tabular}{@{}c|ccc@{}}
+\toprule
+Group & Model Name & Parameter Size & Introduction \\ \midrule
+\multirow{5}{*}{\begin{tabular}[c]{@{}c@{}}General\\ Instruct\end{tabular}} & Gemma3-IT \cite{teamGemma3Technical2025} & 12B & SOTA multimodal open model from Google \\
+ & LLaMA3-Instruct \cite{dubeyLlama3Herd2024} & 8B & Popular, classic open LLM from Meta \\
+ & LLaMA3.1-Instruct \cite{dubeyLlama3Herd2024} & 8B & Updated version of LLaMA3-Instruct \\
+ & Qwen2.5-Instruct \cite{qwenQwen25TechnicalReport2025} & 8B, 14B, 32B & Popular, classic open LLM from Alibaba \\
+ & Qwen3 \cite{yangQwen3TechnicalReport2025a} & 8B, 14B & SOTA open LLM with mixed thinking mode from Alibaba \\ \midrule
+\multirow{5}{*}{\begin{tabular}[c]{@{}c@{}}Domain-\\ Specialized\end{tabular}} & CodeLLaMA \cite{roziereCodeLlamaOpen2024} & 7B & Open code LLM based on LLaMA2 \\
+ & InternLM2-Math \cite{caiInternLM2TechnicalReport2024a} & 7B & Open math LLM based on InternLM2 \\
+ & DeepSeek-Coder-V2-Lite \cite{deepseek-aiDeepSeekCoderV2BreakingBarrier2024} & 16B & Open code LLM based on DeepSeek-V2 \\
+ & Qwen2.5-Math \cite{yangQwen25MathTechnicalReport2024} & 7B & Open math LLM based on Qwen-2.5 \\
+ & Qwen2.5-Coder \cite{huiQwen25CoderTechnicalReport2024} & 7B, 14B, 32B & Open code LLM based on Qwen-2.5 \\ \midrule
+\multirow{6}{*}{\begin{tabular}[c]{@{}c@{}}Multilingual-\\ Enhanced\end{tabular}} & TowerInstruct-v0.1 \cite{alvesTowerOpenMultilingual2024a} & 7B & Multilingual translation LLM based on LLaMA2 \\
+ & Hunyuan-MT \cite{zhengHunyuanMTTechnicalReport2025} & 7B & Multilingual translation model based on Hunyuan \\
+ & Aya-Expanse \cite{dangAyaExpanseCombining2024} & 8B & Advanced multilingual LLM based on Command R \\
+ & Sailor2-Chat \cite{douSailor2SailingSouthEast2025} & 8B & South-East Asia languages focused LLM based on Qwen2 \\
+ & LLaMAX3-Alpaca \cite{lu-etal-2024-llamax} & 8B & Multilingual translaation LLM based on LLaMA3 \\
+ & Tower-Plus \cite{reiTowerBridgingGenerality2025} & 9B & Multilingual translation and general LLM based on Gemma2 \\ \midrule
+\multirow{4}{*}{\begin{tabular}[c]{@{}c@{}}Super-\\ Large\end{tabular}} & Qwen3 \cite{yangQwen3TechnicalReport2025a} & 235B (22B Active) & SOTA open LLM with mixed thinking mode from Alibaba \\
+ & DeepSeek-V3 \cite{deepseek-aiDeepSeekV3TechnicalReport2025} & 671B (37B Active) & Popular open LLM from DeepSeek \\
+ & DeepSeek-R1 \cite{deepseek-aiDeepSeekR1IncentivizingReasoning2025a} & 671B (37B Active) & Popular, classic open reasoning LLM from DeepSeek \\
+ & Kimi-K2 \cite{teamKimiK2Open2025} & 1T (32B Active) & SOTA reasoning LLM from Moonshot \\ \midrule
+\multirow{3}{*}{Ours} & Qwen3-FFT & 8B, 14B & Qwen3 with fully finetuning on our multilingual data \\
+ & Qwen3-LoRA & 8B, 14B & Qwen3 with LoRA finetuning on our multilingual data \\
+ & Qwen3-XPlus & 8B, 14B & Qwen3 with \method on our multilingual data \\ \bottomrule
+\end{tabular}
+\caption{Information of models used in our study.}
+\label{tab:appendix-models}
+\end{table*}
+
+\subsection{Training Data}
+Our training data mainly sources from NLLB and OPUS-100. Here we briefly introduce these two datasets.
+
+\paragraph{NLLB.} Provided in CCMatrix \cite{schwenk-etal-2021-ccmatrix}, this dataset was created based on metadata for mined parallel corpus released by Meta AI \cite{nllbteam2022languageleftbehindscaling}. It contains parallel text for 148 English-centric and 1465 non-English-centric language pairs, with a complete size of ~450GB.
+
+\paragraph{OPUS-100.} OPUS-100 is an English-centric multilingual corpus covering 100 languages. The languages were selected based on the volume of parallel data available in OPUS (\url{https://opus.nlpl.eu}). OPUS-100 contains approximately 55M sentence pairs. Of the 99 language pairs, 44 have 1M sentence pairs of training data, 73 have at least 100k, and 95 have at least 10k.
+
+\subsection{Evaluation Benchmarks}
+Table \ref{tab:appendix-benchmarks} lists the benchmarks used in our evaluation.
+
+\subsection{Hyperparameter Settings}
+We train the model for 1 epoch with a learning rate of 1e-5, scheduled by a cosine scheduler with a minimum learning rate of 2e-6 and a warmup ratio of 0.03. Mixed precision training (bf16) is used to improve efficiency. All experiments are performed on 8 NVIDIA H800 GPUs with a per-device training batch size of 1 and gradient accumulation over 2 steps\footnote{More training details can be found in the configuration file: \url{https://huggingface.co/LLaMAX/Qwen3-XPlus-17langs-14B/blob/main/training.yaml}}.
+
+
+\subsection{Evaluation Benchmarks}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table*}[ht]
+\centering
+\scriptsize
+\begin{tabular}{@{}c|ccl@{}}
+\toprule
+\textbf{Group} & \textbf{Benchmark Name} & \textbf{Metric} & \textbf{Information} \\ \midrule
+\multirow{1}{*}{Translation} & FLORES-101 \cite{goyal-etal-2022-flores} & \multirow{1}{*}{spBLEU, xCOMET} & Parallel sentences for 101 languages extracted from English Wikipedia \\
+ % & WMT2024 \cite{maillard-etal-2024-findings} &  & Testing data of the Ninth Conference on Machine Translation \\
+ % & TED \cite{cettolo-etal-2012-wit3} &  & Collection of Ted talks and their translated version into about 70 languages \\
+ \midrule
+\multirow{7}{*}{Multilingual} & XNLI \cite{conneau-etal-2018-xnli} & \multirow{7}{*}{Accuracy} & Subset of MNLI translated into 14 languages, about textual entailment \\
+ & MGSM \cite{shiLanguageModelsAre2022b} &  & Subset of GSM translated into 10 languages, about grad-school math \\
+ & xIFEval \cite{benchmax:2025} &  & IFEval translated into 17 languages, about instruction following \\
+ & XStoryCloze \cite{lin-etal-2022-shot} &  & English StoryCloze translated into 10 languages, about story continuation \\
+ & XCOPA \cite{ponti-etal-2020-xcopa} &  & COPA translated into 11 languages, about commonsense reasoning \\
+ & XGPQA \cite{benchmax:2025,rein2024gpqa} & & translated into 17 languages, about challenging scientific questions \\
+ & XWinograd \cite{muennighoff-etal-2023-crosslingual} &  & Winograd enriched to 6 languages, about coreference resolution \\ \midrule
+\multirow{14}{*}{General} & MathQA \cite{amini-etal-2019-mathqa} & \multirow{10}{*}{Accuracy} & Math word problems adapted from AQuA-RAT \\
+ % & IFEval \cite{zhouInstructionFollowingEvaluationLarge2023} &  & Verifiable instructions to evaluate LLM Instruction following \\
+ & BBEH \cite{kazemi-etal-2025-big} &  & Extra hard version of Big-Bench with newer and harder tasks \\
+ & AIME 2024, 2025 \cite{ArtProblemSolving} &  & Problems from the American Invittional Mathematics Examination \\
+ & OlympiadBench \cite{he-etal-2024-olympiadbench} &  & Olympiad-level bilingual multimodal math and physics promblems \\
+ & LiveMathBench \cite{liu-etal-2025-llms-capable}&  & Challenging latest questions from mathematical competitions \\
+ & OlymMath \cite{sunChallengingBoundariesReasoning2025} &  & Olympiad-level math problems in parallel English and Chinese \\
+ & Math \cite{lightmanLetsVerifyStep2023} &  & Challenging competition math problems with full step-by-step solutions \\
+ % & \begin{tabular}[c]{@{}c@{}}MMLU \cite{hendrycksMeasuringMassiveMultitask2021a}, \\ MMLU-Pro \cite{wangMMLUProMoreRobust2024}\end{tabular} &  & Massive multitask test about various subjects and its improved version \\
+ & MBPP \cite{austinProgramSynthesisLarge2021} & \multirow{3}{*}{Pass@1} & Crowd-sourced entry level Python programming problems \\
+ & LiveCodeBench-V5, V6~\cite{jainLiveCodeBenchHolisticContamination2024a} &  & New problems from coding contests \\
+ & BigCodeBench-Hard \cite{zhuoBigCodeBenchBenchmarkingCode2024} &  & Practical and challenging programming problems \\
+ & HumanEval+ \cite{liuYourCodeGenerated2023} &  & Formatted programming problems and its improved version \\ \hline
+\end{tabular}
+\caption{Information on benchmarks used in our study.}
+\label{tab:appendix-benchmarks}
+\end{table*}
+
+\subsection{Analysis of LoRA Variants and Hyperparameters}
+\input{ACL_2026/tabs/lora_ablation}
+
+In Table~\ref{tab:lora_abaltion}, we compared the translation performance of Qwen3 on the FLORES-101 dataset under various LoRA variants and hyperparameter settings. We observed that the vanilla LoRA showed a clear advantage over other variants. Notably, low-rank LoRA achieved significantly better performance than high-rank configurations, which might be attributed to its stronger ability to mitigate catastrophic forgetting. Based on these observations, we adopted the LoRA tuning with rank = 8 in our main experiments.
+
+

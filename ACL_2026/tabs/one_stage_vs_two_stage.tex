@@ -1,0 +1,39 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage{graphicx}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\centering
+\footnotesize
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}l|cc|cc|cc@{}}
+\toprule
+\multirow{2}{*}{\textbf{x}}  & \multicolumn{2}{c|}{\textbf{Qwen3-8B}} & \multicolumn{2}{c|}{\textbf{One-Stage}} & \multicolumn{2}{c}{\textbf{Two-Stage}} \\
+& \textbf{x$\rightarrow$en} & \textbf{en$\rightarrow$x} & \textbf{x$\rightarrow$en} & \textbf{en$\rightarrow$x} & \textbf{x$\rightarrow$en} & \textbf{en$\rightarrow$x} \\
+\midrule
+ar & 38.28 & 29.38 & 42.09 & 31.98 & \textbf{42.17} & \textbf{33.03} \\
+bn & 32.15 & 19.02 & \textbf{34.63} & 24.85 &  34.43 & \textbf{25.42}  \\
+cs & 40.48 & 31.36 & 42.20 & 32.44 &  \textbf{42.88} & \textbf{32.99}  \\
+de & 44.73 & 40.44 & \textbf{46.76} & \textbf{40.21} & 46.65 & 39.99 \\
+es & 32.63 & 30.21 & \textbf{34.14} & 31.12 &  33.98 & \textbf{31.43}  \\
+fr & 46.00 & 49.44 & 47.52 & 50.32 & \textbf{47.60} & \textbf{50.73} \\
+hu & 35.59 & 24.09 & 37.82 & 25.41 &  \textbf{38.03} & \textbf{27.39}  \\
+ja & 29.04 & 24.79 & 31.22 & 25.45 &  \textbf{31.33} & \textbf{26.11}  \\
+ko & 31.44 & 21.13 & \textbf{32.94} & 22.48 &  32.72 & \textbf{23.30}  \\
+ru & 36.56 & 35.19 & \textbf{38.39} & 35.11 &  38.18 & \textbf{36.23}  \\
+sr & 41.10 & 25.23 & 43.57 & 32.00 &  \textbf{44.19} & \textbf{32.50}  \\
+{\color[HTML]{D83931} sw} & {\color[HTML]{D83931} 23.08} & {\color[HTML]{D83931} 6.53} & {\color[HTML]{D83931} \textbf{32.03}} & {\color[HTML]{D83931} 23.32} & {\color[HTML]{D83931} \textbf{33.55} } & {\color[HTML]{D83931} \textbf{26.53}} \\
+{\color[HTML]{D83931} te} & {\color[HTML]{D83931} 33.51} & {\color[HTML]{D83931} 15.83} & {\color[HTML]{D83931} 36.18} & {\color[HTML]{D83931} 27.54} & {\color[HTML]{D83931} \textbf{36.63} } & {\color[HTML]{D83931} \textbf{30.13}} \\
+th & 31.17 & 36.53 & \textbf{33.04} & 32.91 &  32.99 & \textbf{33.76}  \\
+vi & 37.34 & 38.34 & \textbf{39.80} & 40.30 &  39.36 & \textbf{40.80}  \\
+zh & 31.10 & 34.99 & 33.35 & \textbf{35.68} &   \textbf{33.65} & 34.71  \\
+\midrule
+Avg & 35.26 & 28.91 & 37.86 & 31.95 & \textbf{38.02} & \textbf{32.81} \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Effectiveness of two-stage tuning in \method. Experimental results show that the two-stage tuning strategy offers advantages over the one-stage approach and brings pronounced benefits for low-resource languages such as sw and te.}
+\label{tab:two_vs_one}
+\end{table}

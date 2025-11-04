@@ -1,0 +1,39 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table*}[!ht]
+\centering
+\scriptsize
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}c|c|ll|ll|c|c|ll|ll@{}}
+\toprule
+\multirow{3}{*}{\textbf{setting}} & \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{rank}}} & \multicolumn{2}{c|}{\textbf{language$\rightarrow$x}} & \multicolumn{2}{c|}{\textbf{x$\rightarrow$language}} & \multirow{3}{*}{\textbf{setting}} & \multicolumn{1}{c|}{\multirow{3}{*}{\textbf{rank}}} & \multicolumn{2}{c|}{\textbf{language$\rightarrow$x}} & \multicolumn{2}{c}{\textbf{x$\rightarrow$language}} \\
+% \midrule
+&  & \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} &  &  & \textbf{spBLEU} & \textbf{xComet} & \textbf{spBLEU} & \textbf{xComet} \\ 
+\midrule
+\multicolumn{6}{c|}{Qwen3-8B} & \multicolumn{6}{c}{Qwen3-14B} \\
+\midrule
+\multirow{5}{*}{LoRA} & 8 & 18.01 & 60.93 & 17.83 & 61.49 & \multirow{5}{*}{LoRA} & 8 & 20.79 & 65.40 & 21.13 & 65.13 \\
+ & 16 & 16.83 & 57.76 & 16.46 & 57.67 &  & 16 & 13.45 & 47.44 & 14.64 & 49.51 \\
+ & 32 & 15.87 & 56.05 & 16.05 & 56.35 &  & 32 & 10.91 & 40.80 & 13.01 & 44.22 \\
+ & 64 & 15.31 & 54.90 & 14.28 & 54.03 &  & 64 & 6.75 & 32.50 & 8.15 & 35.30 \\
+ & 128 & 13.95 & 51.42 & 11.93 & 47.05 &  & 128 & 7.55 & 37.87 & 8.04 & 40.55 \\
+ \midrule
+\multirow{5}{*}{rsLoRA} & 8 & 15.58 & 55.44 & 16.35 & 57.56 & \multirow{5}{*}{rsLoRA} & 8 & 8.29 & 35.53 & 10.64 & 39.48 \\
+ & 16 & 13.64 & 51.81 & 11.32 & 47.82 &  & 16 & 5.52 & 30.83 & 6.55 & 33.21 \\
+ & 32 & 12.51 & 48.02 & 10.41 & 41.80 &  & 32 & 8.66 & 44.68 & 9.86 & 46.39 \\
+ & 64 & 14.60 & 59.01 & 13.18 & 56.66 &  & 64 & 9.96 & 48.65 & 10.59 & 49.81 \\
+ & 128 & 13.17 & 52.54 & 11.26 & 49.56 &  & 128 & 9.59 & 43.24 & 9.51 & 44.66 \\
+ \midrule
+\multirow{5}{*}{DLoRA} & 8 & 17.49 & 60.16 & 17.20 & 61.06 & \multirow{5}{*}{DLoRA} & 8 & 12.90 & 47.87 & 15.85 & 53.31 \\
+ & 16 & 16.62 & 57.77 & 16.28 & 58.14 &  & 16 & 9.68 & 39.09 & 11.75 & 42.75 \\
+ & 32 & 15.53 & 55.49 & 15.78 & 56.29 &  & 32 & 8.32 & 35.26 & 10.45 & 38.73 \\
+ & 64 & 15.52 & 55.93 & 14.82 & 55.69 &  & 64 & 5.62 & 30.57 & 6.85 & 32.50 \\
+ & 128 & 14.07 & 52.06 & 12.43 & 48.10 &  & 128 & 8.93 & 43.40 & 10.23 & 44.50 \\
+ \bottomrule
+\end{tabular}%
+}
+\caption{Translation performance of Qwen3 under different LoRA variants and hyperparameter settings.}
+\label{tab:lora_abaltion}
+\end{table*}
